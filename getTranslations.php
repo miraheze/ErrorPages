@@ -3,7 +3,7 @@
 $lang = Locale::acceptFromHttp( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'en' );
 $i18nDirectory = scandir( 'i18n' );
 
-unset( $i18nDirectory['.'], $i18nDirectory['..'], $i18nDirectory['qqq'] );
+unset( $i18nDirectory['.'], $i18nDirectory['..'], $i18nDirectory['qqq.json'] );
 
 if ( in_array( $lang, $i18nDirectory ) ) {
 	$translations = json_decode( file_get_contents( __DIR__ . "/i18n/{$lang}.json" ), true );
