@@ -4,7 +4,6 @@ header( 'Content-Type: text/html; charset=utf-8' );
 header( 'Cache-Control: s-maxage=2678400, max-age=2678400' );
 
 require_once __DIR__ . '/getTranslations.php';
-$lang = Locale::acceptFromHttp( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'en' );
 
 $path = $_SERVER['REQUEST_URI'];
 $encUrl = htmlspecialchars( $path );
@@ -23,7 +22,7 @@ $encTarget = htmlspecialchars( $target );
 
 echo <<<EOF
 	<!DOCTYPE html>
-	<html lang="$lang">
+	<html lang="${getLanguageCode()}">
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
