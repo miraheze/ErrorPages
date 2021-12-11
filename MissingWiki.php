@@ -2,7 +2,6 @@
 
 if ( !$wgCommandLineMode ) {
 	require_once __DIR__ . '/getTranslations.php';
-	$lang = Locale::acceptFromHttp( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'en' );
 
 	http_response_code( 404 );
 	$requestURL = htmlspecialchars( $_SERVER['REQUEST_URI'] );
@@ -11,7 +10,7 @@ if ( !$wgCommandLineMode ) {
 
 	echo <<<EOF
 		<!DOCTYPE html>
-		<html lang="$lang">
+		<html lang="${getLanguageCode()}">
 			<head>
 				<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
