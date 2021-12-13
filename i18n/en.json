@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Universal Omega"
+		]
+	},
+	"did-you-mean": "Did you mean:",
+	"missingwiki": "Wiki Not Found",
+	"notfound": "Not Found",
+	"page-not-found": "Page Not Found",
+	"page-not-found-alternatively": "Alternatively, you can visit the [/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|more information] about this type of error.",
+	"page-not-found-more": "We could not find the above page on our servers.",
+	"wiki-not-found": "We couldn't find the wiki you were looking for on our servers.",
+	"wiki-not-found-bureaucrat": "If you're the wiki bureaucrat:",
+	"wiki-not-found-browse": "This wiki does not exist on our servers. You can browse wikis on our network [https://meta.miraheze.org/wiki/Special:WikiDiscover|here] or [https://archive.org/search.php?query=miraheze|view archive.org archives].",
+	"wiki-not-found-contact": "If this is a problem, please [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|contact us].",
+	"wiki-not-found-meta": "Take me to Miraheze Meta",
+	"wiki-not-found-more": "What can I do?",
+	"wiki-not-found-visitor": "If you're a wiki visitor:"
+}
