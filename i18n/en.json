@@ -8,7 +8,7 @@
 	"missingwiki": "Wiki Not Found",
 	"notfound": "Not Found",
 	"page-not-found": "Page Not Found",
-	"page-not-found-alternatively": "Alternatively, you can visit the [/w|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|more information] about this type of error.",
+	"page-not-found-alternatively": "Alternatively, you can visit the [/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|more information] about this type of error.",
 	"page-not-found-more": "We could not find the above page on our servers.",
 	"wiki-not-found": "We couldn't find the wiki you were looking for on our servers.",
 	"wiki-not-found-bureaucrat": "If you're the wiki bureaucrat:",
