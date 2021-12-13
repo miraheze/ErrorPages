@@ -57,7 +57,7 @@ if ( !$wgCommandLineMode ) {
 			<div class="container">
 				<!-- Jumbotron -->
 				<div class="jumbotron">
-					<h1><img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo">404 Wiki not Found</h1>
+					<h1><img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo">404 {$getTranslation( 'missingwiki' )}</h1>
 					<p class="lead">{$getTranslation( 'wiki-not-found' )}</p>
 					<p>
 						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze" class="btn btn-lg btn-outline-success" role="button">{$getTranslation( 'wiki-not-found-meta' )}</a>
