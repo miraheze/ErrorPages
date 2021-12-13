@@ -27,7 +27,7 @@ echo <<<EOF
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="description" content="Not Found">
-			<title>Not Found</title>
+			<title>${getTranslation( 'notfound' )}</title>
 			<link rel="shortcut icon" href="/favicon.ico">
 			<!-- Bootstrap core CSS -->
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -70,11 +70,11 @@ echo <<<EOF
 				<a href="https://miraheze.org">
 					<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo">
 				</a>
-				<h1>Page not found</h1>
+				<h1>${getTranslation( 'page-not-found' )}</h1>
 				<p><em>$encUrl</em></p>
-				<p>We could not find the above page on our servers.</p>
-				<p><b>Did you mean: <a href="$encTarget">$encTarget</a></b></p>
-				<p style="clear:both;">Alternatively, you can visit the <a href="/">Main Page</a> or read <a href="https://en.wikipedia.org/wiki/HTTP_404" title="Wikipedia: HTTP 404">more information</a> about this type of error.</p>
+				<p>${getTranslation( 'page-not-found-more' )}</p>
+				<p><b>${getTranslation( 'did-you-mean' )} <a href="$encTarget">$encTarget</a></b></p>
+				<p style="clear:both;">${getTranslation( 'page-not-found-alternatively' )}</p>
 			</div>
 		</div>
 	</html>
