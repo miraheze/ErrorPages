@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Universal Omega"
+		]
+	},
+	"did-you-mean": "Did you mean text on the 404 error page",
+	"missingwiki": "Title for the missing wiki error page",
+	"notfound": "Title for the 404 error page",
+	"page-not-found": "Header on the 404 error page",
+	"page-not-found-alternatively": "Alternative options text on the 404 error page",
+	"page-not-found-more": "Additional descriptive text on the 404 error page",
+	"wiki-not-found": "Descriptive text on the missing wiki error page",
+	"wiki-not-found-bureaucrat": "Header for information for wiki bureaucrats on the missing wiki error page",
+	"wiki-not-found-browse": "Alternative options to browse this wiki on archive.org, shown on the missing wiki error page",
+	"wiki-not-found-contact": "Contact us text for the missing wiki error page",
+	"wiki-not-found-meta": "Text for the 'Take me to Miraheze Meta' button on the missing wiki error page",
+	"wiki-not-found-more": "'What can I do?' text on the missing wiki error page",
+	"wiki-not-found-visitor": "Header for information for wiki visitors on the missing wiki error page"
+}
