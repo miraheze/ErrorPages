@@ -37,9 +37,9 @@ function getTranslation( $key ) {
 	}
 
 	return preg_replace( '/\[(.*)\|(.*)\]/i', '<a href="$1">$2</a>',
-		nl2br( preg_quote( htmlspecialchars(
+		nl2br( htmlspecialchars(
 			getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key]
-		) ) )
+		) )
 	);
 }
 
