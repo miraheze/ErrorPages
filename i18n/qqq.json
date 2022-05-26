@@ -7,6 +7,8 @@
 	"did-you-mean": "Did you mean text on the 404 error page",
 	"missingwiki": "Title for the missing wiki error page",
 	"notfound": "Title for the 404 error page",
+	"gateway-timeout": "Title for the 504 error page",
+	"504-gateway-timeout": "Header on the 504 error page",
 	"page-not-found": "Header on the 404 error page",
 	"page-not-found-alternatively": "Alternative options text on the 404 error page",
 	"page-not-found-more": "Additional descriptive text on the 404 error page",
