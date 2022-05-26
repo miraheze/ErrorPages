@@ -14,7 +14,7 @@ echo <<<EOF
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="Bad Gateway">
+			<meta name="description" content="Gateway Time-out">
 			<title>{$getTranslation( 'gateway-timeout' )}</title>
 			<link rel="shortcut icon" href="/favicon.ico">
 			<!-- Bootstrap core CSS -->
