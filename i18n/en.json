@@ -7,6 +7,8 @@
 	"did-you-mean": "Did you mean:",
 	"missingwiki": "Wiki Not Found",
 	"notfound": "Not Found",
+	"gateway-timeout": "Gateway Time-out",
+	"504-gateway-timeout": "504 Gateway Time-out",
 	"page-not-found": "Page Not Found",
 	"page-not-found-alternatively": "Alternatively, you can visit the [/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|more information] about this type of error.",
 	"page-not-found-more": "We could not find the above page on our servers.",
