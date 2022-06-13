@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"did-you-mean": "Voulez-vous dire :",
+	"missingwiki": "Wiki non trouvé",
+	"notfound": "Non trouvé",
+	"page-not-found": "Page non trouvée",
+	"page-not-found-alternatively": "Autrement, vous pouvez visiter la [/|page principale] ou consulter [https://en.wikipedia.org/wiki/HTTP_404|plus d’informations] au sujet de ce type d’erreur.",
+	"page-not-found-more": "La page indiquée ci-dessus n’a pas été trouvée sur nos serveurs.",
+	"wiki-not-found": "Nous n’avons pas pu trouver le wiki que vous recherchiez sur nos serveurs.",
+	"wiki-not-found-bureaucrat": "Si vous êtes un bureaucrate administrant ce wiki :",
+	"wiki-not-found-browse": "Ce wiki n’existe pas sur nos serveurs. Vous pouvez parcourir les wikis présents [https://meta.miraheze.org/wiki/Special:WikiDiscover|sur notre réseau] ou [https://archive.org/search.php?query=miraheze|dans nos archives].",
+	"wiki-not-found-contact": "Pour tout problème, veuillez [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|nous contacter].",
+	"wiki-not-found-meta": "Conduisez-moi vers Miraheze Meta",
+	"wiki-not-found-more": "Que puis-je faire ?",
+	"wiki-not-found-visitor": "Si vous êtes un visiteur du wiki :"
+}

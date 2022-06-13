@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"did-you-mean": "您是不是指：",
+	"missingwiki": "找不到 wiki",
+	"notfound": "沒有找到",
+	"page-not-found": "找不到頁面",
+	"page-not-found-alternatively": "另外，您可以查看關於此錯誤類型的[/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|更多資訊]。",
+	"page-not-found-more": "在我們的伺服器上找不到以上頁面。",
+	"wiki-not-found": "我們找不到您在我們伺服器上要找的 wiki。",
+	"wiki-not-found-bureaucrat": "如果您是 wiki 的行政員：",
+	"wiki-not-found-browse": "此 wiki 不在我們的伺服器上。您可以在[https://meta.miraheze.org/wiki/Special:WikiDiscover|這裡]從我們的網路上瀏覽 wiki 或是[https://archive.org/search.php?query=miraheze|查看 archive.org 上的存檔]。",
+	"wiki-not-found-contact": "如果這有問題，請[https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|聯絡我們]。",
+	"wiki-not-found-meta": "帶我到 Miraheze Meta",
+	"wiki-not-found-more": "我能做什麼？",
+	"wiki-not-found-visitor": "如果您是 wiki 的訪客："
+}
