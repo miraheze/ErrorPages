@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gomoko",
 			"Verdy p"
 		]
 	},
 	"did-you-mean": "Voulez-vous dire :",
 	"missingwiki": "Wiki non trouvé",
 	"notfound": "Non trouvé",
+	"gateway-timeout": "Délai de passerelle dépassé",
+	"504-gateway-timeout": "504 Délai de passerelle dépassé",
 	"page-not-found": "Page non trouvée",
 	"page-not-found-alternatively": "Autrement, vous pouvez visiter la [/|page principale] ou consulter [https://en.wikipedia.org/wiki/HTTP_404|plus d’informations] au sujet de ce type d’erreur.",
 	"page-not-found-more": "La page indiquée ci-dessus n’a pas été trouvée sur nos serveurs.",
