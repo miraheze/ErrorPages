@@ -7,6 +7,8 @@
 	"did-you-mean": "您是不是指：",
 	"missingwiki": "找不到 wiki",
 	"notfound": "沒有找到",
+	"gateway-timeout": "Gateway Time-out",
+	"504-gateway-timeout": "504 Gateway Time-out",
 	"page-not-found": "找不到頁面",
 	"page-not-found-alternatively": "另外，您可以查看關於此錯誤類型的[/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|更多資訊]。",
 	"page-not-found-more": "在我們的伺服器上找不到以上頁面。",
