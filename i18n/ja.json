@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"MathXplore"
+			"MathXplore",
+			"Mugenpman"
 		]
 	},
 	"did-you-mean": "あなたは以下のことを意味していますか:",
 	"missingwiki": "ウィキが見つかりませんでした",
 	"notfound": "見つかりません",
+	"gateway-timeout": "ゲートウェイタイムアウト",
+	"504-gateway-timeout": "504 ゲートウェイタイムアウト",
 	"page-not-found": "ページが見つかりません"
 }
