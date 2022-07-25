@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"U.ayaao.p"
+		]
+	},
+	"wiki-not-found": "Сіз іздеген уикині серверлерімізден таба алмадық.",
+	"wiki-not-found-bureaucrat": "Уики бітікшісі болсаңыз:",
+	"wiki-not-found-browse": "Бұл уики серверлерімізде жоқ. Біздің желімізде [https://meta.miraheze.org/wiki/Special:WikiDiscover|осы жерде] уикилерді шолуыңыз болады, немесе [https://archive.org/search.php?query=miraheze|archive.org архивтерін қараңыз].",
+	"wiki-not-found-contact": "Бұл мәселе болса, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|бізбен хабарласыңыз].",
+	"wiki-not-found-meta": "Miraheze Meta-ға бару",
+	"wiki-not-found-more": "Мен не істей аламын?",
+	"wiki-not-found-visitor": "Уики оқырманы болсаңыз:"
+}
