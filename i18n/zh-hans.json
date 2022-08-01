@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Lakejason0",
 			"StarrySky"
 		]
 	},
 	"did-you-mean": "您是否想找：",
 	"missingwiki": "Wiki未找到",
 	"notfound": "找不到页面",
+	"gateway-timeout": "Gateway Time-out",
+	"504-gateway-timeout": "504 Gateway Time-out",
 	"page-not-found": "页面未找到",
 	"page-not-found-alternatively": "此外，您可以查看此wiki的[/|Main Page] 或阅读 [https://en.wikipedia.org/wiki/HTTP_404|英语维基百科关于此错误的更多资讯]。",
 	"page-not-found-more": "在我们的服务器上找不到以上页面。",
@@ -16,5 +19,5 @@
 	"wiki-not-found-contact": "如果这有问题，请[https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|联络我们]。",
 	"wiki-not-found-meta": "带我到 Miraheze Meta",
 	"wiki-not-found-more": "我能干什么？",
-	"wiki-not-found-visitor": "如果您是 wiki 的访客？"
+	"wiki-not-found-visitor": "如果您是 wiki 的访客："
 }
