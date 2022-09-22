@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"LisafBia",
 			"Qwea1"
 		]
 	},
+	"missingwiki": "Viki bulunamadı",
+	"notfound": "Bulunamadı",
+	"page-not-found": "Sayfa Bulunamadı",
+	"page-not-found-alternatively": "Alternatif olarak, [/|Anasayfayı] ziyaret edebilir veya bu tür hatalarla ilgili [https://tr.wikipedia.org/wiki/HTTP_404 daha fazla bilgi] edinebilirsiniz.",
 	"wiki-not-found": "Ulaşmaya çalıştığınız vikiyi sunucularımızda bulamadık.",
 	"wiki-not-found-meta": "Beni Mirahaze Meta'ya yönlendir",
 	"wiki-not-found-more": "Ne yapabilirim?",
