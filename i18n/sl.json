@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"did-you-mean": "Ste mislili:",
+	"missingwiki": "Viki ni najden",
+	"notfound": "Ni najdeno",
+	"gateway-timeout": "Časovna omejitev prehoda",
+	"504-gateway-timeout": "504 Časovna omejitev prehoda",
+	"page-not-found": "Strani ni mogoče najti",
+	"page-not-found-alternatively": "Lahko pa obiščete [/|Glavno stran] ali [https://sl.wikipedia.org/wiki/HTTP_404|preberete več] o tej vrsti napake.",
+	"page-not-found-more": "V naših strežnikih nismo mogli najti navedene strani.",
+	"wiki-not-found": "V naših strežnikih nismo mogli najti vikija, ki ste ga iskali.",
+	"wiki-not-found-bureaucrat": "Če ste viki birokrat:",
+	"wiki-not-found-browse": "V naših strežnikih ta viki ne obstaja. Po vikijih v našem omrežju lahko brskate [https://meta.miraheze.org/wiki/Special:WikiDiscover|tukaj] ali na [https://archive.org/search.php?query=miraheze|archive.org].",
+	"wiki-not-found-contact": "Če je to težava, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|nam pišite].",
+	"wiki-not-found-meta": "Pelji me do Miraheze Meta",
+	"wiki-not-found-more": "Kaj lahko naredim?",
+	"wiki-not-found-visitor": "Če ste obiskovalec vikija:"
+}
