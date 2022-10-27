@@ -55,11 +55,12 @@ if ( !$wgCommandLineMode ) {
 					}
 					/* Bottom links */
 					.bottom-links {
-					display: flex;
-					justify-content: space-between;
-					margin: 30px auto;
-					max-width: 100%;
-					width: 600px;
+						display: flex;
+						justify-content: space-between;
+						margin: 30px auto;
+						max-width: 100%;
+						text-align: center;
+						width: 600px;
 					}
 					/* Colors */
 					.green {color:#5cb85c;}
