@@ -61,6 +61,20 @@ echo <<<EOF
 					font-size: 21px;
 					padding: 14px 24px;
 				}
+				/* Fade-in */
+				@keyframes fadein {
+					from { opacity: 0; }
+					to   { opacity: 1; }
+				}
+				/* Bottom links */
+				.bottom-links {
+					display: flex;
+					justify-content: space-between;
+					margin: 30px auto;
+					max-width: 100%;
+					text-align: center;
+					width: 600px;
+				}
 				/* Colors */
 				.green {color:#5cb85c;}
 				.orange {color:#f0ad4e;}
@@ -80,7 +94,7 @@ echo <<<EOF
 			<!-- Jumbotron -->
 			<div class="jumbotron">
 				<a href="https://www.miraheze.org">
-					<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo">
+					<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" class="fadein" alt="Miraheze Logo">
 				</a>
 				<h1>{$getTranslation( 'page-not-found' )}</h1>
 				<p><b>{$getTranslation( 'did-you-mean' )} <a href="$encTarget">$encTarget</a></b></p>
@@ -88,5 +102,10 @@ echo <<<EOF
 				<p style="clear:both;">{$getTranslation( 'page-not-found-alternatively' )}</p>
 			</div>
 		</div>
+		<div class="bottom-links">
+				<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
+				<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getTranslation( 'wiki-not-found-meta' )}</a>
+				<a href="https://archive.org/search.php?query=miraheze">{$getTranslation( 'wiki-not-found-archiveorg' )}</a>
+			</div>
 	</html>
 EOF;
