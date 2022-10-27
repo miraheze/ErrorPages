@@ -83,14 +83,14 @@ if ( !$wgCommandLineMode ) {
 					<h1>{$getTranslation( 'missingwiki' )}</h1>
 					<p class="lead">{$getTranslation( 'wiki-not-found' )}</p>
 					<p>
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'wiki-not-found-meta' )}</a>
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'wiki-not-found-learnmore' )}</a>
 					</p>
 				</div>
 			</div>
 			<div class="bottom-links">
-				<a href="#" onClick="history.go(-1); return false;">&larr; Go back</a>
-				<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">Miraheze Meta</a>
-				<a href="https://archive.org/search.php?query=miraheze">Search on Archive.org</a>
+				<a href="#" onClick="history.go(-1); return false;">{$getTranslation( 'wiki-not-found-goback' )}</a>
+				<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getTranslation( 'wiki-not-found-meta' )}</a>
+				<a href="https://archive.org/search.php?query=miraheze">{$getTranslation( 'wiki-not-found-archiveorg' )}</a>
 			</div>
 		</html>
 	EOF;
