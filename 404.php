@@ -29,7 +29,7 @@ echo <<<EOF
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="Not Found">
+			<meta name="description" content="Page not found">
 			<title>{$getTranslation( 'notfound' )}</title>
 			<link rel="shortcut icon" href="/favicon.ico">
 			<!-- Bootstrap core CSS -->
@@ -52,7 +52,7 @@ echo <<<EOF
 					padding-left: 15px;
 					padding-right: 15px;
 				}
-				/* Main marketing message and sign up button */
+				/* Main body and and button */
 				.jumbotron {
 					text-align: center;
 					background-color: transparent;
@@ -65,18 +65,26 @@ echo <<<EOF
 				.green {color:#5cb85c;}
 				.orange {color:#f0ad4e;}
 				.red {color:#d9534f;}
+				/* Dark mode */
+					@media (prefers-color-scheme: dark) {
+						body {
+							background-color: #282828;
+						}
+						h1, p {
+							color: white;
+						}
+					}
 			</style>
 		</head>
 		<div class="container">
 			<!-- Jumbotron -->
 			<div class="jumbotron">
-				<a href="https://miraheze.org">
+				<a href="https://www.miraheze.org">
 					<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" alt="Miraheze Logo">
 				</a>
 				<h1>{$getTranslation( 'page-not-found' )}</h1>
-				<p><em>$encUrl</em></p>
-				<p>{$getTranslation( 'page-not-found-more' )}</p>
 				<p><b>{$getTranslation( 'did-you-mean' )} <a href="$encTarget">$encTarget</a></b></p>
+				<p>{$getTranslation( 'page-not-found-more' )}</p>
 				<p style="clear:both;">{$getTranslation( 'page-not-found-alternatively' )}</p>
 			</div>
 		</div>
