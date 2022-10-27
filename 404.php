@@ -95,7 +95,7 @@ echo <<<EOF
 			<div class="jumbotron">
 				<p>
 					<a href="https://www.miraheze.org">
-						<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" style="fadein" alt="Miraheze Logo">
+						<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" style="fadein 1s;" alt="Miraheze Logo">
 					</a>
 				</p>
 				<h1>{$getTranslation( 'page-not-found' )}</h1>
@@ -105,8 +105,7 @@ echo <<<EOF
 		</div>
 		<div class="bottom-links">
 			<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
-			<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getTranslation( 'page-not-found-mainpage' )}</a>
-			<a href="https://archive.org/search.php?query=miraheze">{$getTranslation( 'page-not-found-learnmore' )}</a>
+			<a href="/">{$getTranslation( 'page-not-found-mainpage' )}</a>
 		</div>
 	</html>
 EOF;
