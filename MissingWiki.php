@@ -88,7 +88,7 @@ if ( !$wgCommandLineMode ) {
 				</div>
 			</div>
 			<div class="bottom-links">
-				<a href="#" onClick="history.go(-1); return false;">{$getTranslation( 'wiki-not-found-goback' )}</a>
+				<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
 				<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getTranslation( 'wiki-not-found-meta' )}</a>
 				<a href="https://archive.org/search.php?query=miraheze">{$getTranslation( 'wiki-not-found-archiveorg' )}</a>
 			</div>
