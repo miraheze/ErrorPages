@@ -99,13 +99,12 @@ echo <<<EOF
 				<h1>{$getTranslation( 'page-not-found' )}</h1>
 				<p><b>{$getTranslation( 'did-you-mean' )} <a href="$encTarget">$encTarget</a></b></p>
 				<p>{$getTranslation( 'page-not-found-more' )}</p>
-				<p style="clear:both;">{$getTranslation( 'page-not-found-alternatively' )}</p>
 			</div>
 		</div>
 		<div class="bottom-links">
 				<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
-				<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getTranslation( 'wiki-not-found-meta' )}</a>
-				<a href="https://archive.org/search.php?query=miraheze">{$getTranslation( 'wiki-not-found-archiveorg' )}</a>
+				<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getTranslation( 'page-not-found-mainpage' )}</a>
+				<a href="https://archive.org/search.php?query=miraheze">{$getTranslation( 'page-not-found-learnmore' )}</a>
 			</div>
 	</html>
 EOF;
