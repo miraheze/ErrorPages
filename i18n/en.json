@@ -11,6 +11,8 @@
 	"504-gateway-timeout": "504 Gateway Time-out",
 	"page-not-found": "Page Not Found",
 	"page-not-found-alternatively": "Try visiting the [/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|more information] about this type of error.",
+	"page-not-found-mainpage": "Go to main page",
+	"page-not-found-learnmore": "Learn more about this type of error",
 	"page-not-found-more": "We couldn't find this page.",
 	"wiki-not-found": "We couldn't find this wiki. Check your spelling and try again.",
 	"wiki-not-found-archiveorg": "Search on Archive.org",
