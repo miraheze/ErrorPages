@@ -10,5 +10,9 @@
 	"notfound": "見つかりません",
 	"gateway-timeout": "ゲートウェイタイムアウト",
 	"504-gateway-timeout": "504 ゲートウェイタイムアウト",
-	"page-not-found": "ページが見つかりません"
+	"page-not-found": "ページが見つかりません",
+	"page-not-found-mainpage": "メインページへ移動する",
+	"page-not-found-learnmore": "もっと詳しく",
+	"wiki-not-found-archiveorg": "Archive.org で検索",
+	"wiki-not-found-goback": "前のページに戻る"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DavidL",
 			"Gomoko",
 			"Verdy p"
 		]
@@ -11,13 +12,19 @@
 	"gateway-timeout": "Délai de passerelle dépassé",
 	"504-gateway-timeout": "504 Délai de passerelle dépassé",
 	"page-not-found": "Page non trouvée",
-	"page-not-found-alternatively": "Autrement, vous pouvez visiter la [/|page principale] ou consulter [https://en.wikipedia.org/wiki/HTTP_404|plus d’informations] au sujet de ce type d’erreur.",
-	"page-not-found-more": "La page indiquée ci-dessus n’a pas été trouvée sur nos serveurs.",
-	"wiki-not-found": "Nous n’avons pas pu trouver le wiki que vous recherchiez sur nos serveurs.",
+	"page-not-found-alternatively": "Essayez de visiter la [/|page principale] ou lisez [https://fr.wikipedia.org/wiki/Erreur HTTP 404|plus d’informations] au sujet de ce type d’erreur.",
+	"page-not-found-mainpage": "Aller à la page d’accueil",
+	"page-not-found-learnmore": "En savoir plus",
+	"page-not-found-more": "Nous n’avons pas pu trouver cette page. Vérifiez l’orthographe et essayez à nouveau, ou bien cliquez sur le lien ci-dessus.",
+	"tryagainlater": "Réessayez ultérieurement.",
+	"wiki-not-found": "Nous n’avons pas pu trouver ce wiki. Vérifiez l’orthographe et essayez à nouveau.",
+	"wiki-not-found-archiveorg": "Rechercher sur Archive.org",
 	"wiki-not-found-bureaucrat": "Si vous êtes un bureaucrate administrant ce wiki :",
 	"wiki-not-found-browse": "Ce wiki n’existe pas sur nos serveurs. Vous pouvez parcourir les wikis présents [https://meta.miraheze.org/wiki/Special:WikiDiscover|sur notre réseau] ou [https://archive.org/search.php?query=miraheze|dans nos archives].",
 	"wiki-not-found-contact": "Pour tout problème, veuillez [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|nous contacter].",
-	"wiki-not-found-meta": "Conduisez-moi vers Miraheze Meta",
+	"wiki-not-found-goback": "Retourner à la page précédente",
+	"wiki-not-found-learnmore": "En savoir plus sur Miraheze Méta",
+	"wiki-not-found-meta": "Aller à Miraheze Méta",
 	"wiki-not-found-more": "Que puis-je faire ?",
 	"wiki-not-found-visitor": "Si vous êtes un visiteur du wiki :"
 }

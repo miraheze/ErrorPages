@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"missingwiki": "Вики не найдена",
+	"notfound": "Не найдено",
+	"page-not-found": "Страница не найдена",
+	"page-not-found-mainpage": "Перейти на главную страницу",
+	"page-not-found-learnmore": "Узнать больше",
+	"page-not-found-more": "Мы не смогли найти эту страницу. Проверьте правильность написания и повторите попытку или нажмите на ссылку выше.",
+	"tryagainlater": "Попробуйте позже.",
+	"wiki-not-found": "Мы не смогли найти эту вики. Проверьте правильность написания и повторите попытку.",
+	"wiki-not-found-archiveorg": "Поиск на Archive.org",
+	"wiki-not-found-goback": "Вернуться на предыдущую страницу",
+	"wiki-not-found-learnmore": "Узнайте больше о Miraheze Meta"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"did-you-mean": "Queria dizer:",
+	"missingwiki": "A wiki não foi encontrada",
+	"notfound": "Página não encontrada",
+	"gateway-timeout": "Tempo limite do servidor de acesso excedido",
+	"504-gateway-timeout": "504 Tempo limite do servidor de acesso excedido",
+	"page-not-found": "Página não encontrada",
+	"page-not-found-alternatively": "Tente visitar a [/|Página principal] ou leia [https://en.wikipedia.org/wiki/HTTP_404|mais informações] sobre este tipo de erro.",
+	"page-not-found-mainpage": "Ir para a página principal",
+	"page-not-found-learnmore": "Mais informações",
+	"page-not-found-more": "Não foi possível encontrar esta página. Verifique a ortografia e tente novamente ou clique a hiperligação acima.",
+	"tryagainlater": "Tente novamente mais tarde.",
+	"wiki-not-found": "Não conseguimos encontrar esta wiki. Verifique a ortografia e tente novamente.",
+	"wiki-not-found-archiveorg": "Pesquisar em Archive.org",
+	"wiki-not-found-bureaucrat": "Se é o burocrata da wiki:",
+	"wiki-not-found-browse": "Esta wiki não existe nos nossos servidores. Pode ver as wikis da nossa rede [https://meta.miraheze.org/wiki/Special:WikiDiscover|aqui] ou [https://archive.org/search.php?query=miraheze|ver os arquivos archive.org].",
+	"wiki-not-found-contact": "Se isto constituir um problema, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|contacte-nos].",
+	"wiki-not-found-goback": "Voltar à página anterior",
+	"wiki-not-found-learnmore": "Saiba mais na Miraheze Meta",
+	"wiki-not-found-meta": "Ir para a Miraheze Meta",
+	"wiki-not-found-more": "O que posso fazer?",
+	"wiki-not-found-visitor": "Se é um visitante da wiki:"
+}

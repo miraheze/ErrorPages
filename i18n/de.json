@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nekky-chan"
+			"Nekky-chan",
+			"ThisCarthing"
 		]
 	},
 	"did-you-mean": "Meintest du:",
@@ -9,12 +10,13 @@
 	"notfound": "Nicht gefunden",
 	"page-not-found": "Seite nicht gefunden",
 	"page-not-found-alternatively": "Alternativ kannst du die [/|Hauptseite] besuchen oder [https://en.wikipedia.org/wiki/HTTP_404|mehr Informationen] über diese Art von Fehler lesen.",
+	"page-not-found-mainpage": "Zur Hauptseite gehen",
 	"page-not-found-more": "Wir konnten die oben genannte Seite nicht auf unseren Servern finden.",
 	"wiki-not-found": "Wir konnten das von dir gesuchte Wiki nicht auf unseren Servern finden.",
 	"wiki-not-found-bureaucrat": "Wenn du der Wiki-Bürokrat bist:",
 	"wiki-not-found-browse": "Dieses Wiki existiert nicht auf unseren Servern. Du kannst Wikis in unserem Netzwerk [https://meta.miraheze.org/wiki/Special:WikiDiscover|hier] oder [https://archive.org/search.php?query=miraheze|Ansicht archive.org|in archive.org] durchsuchen.",
 	"wiki-not-found-contact": "Sollte dies ein Problem sein, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|kontaktiere uns] bitte.",
-	"wiki-not-found-meta": "Bring mich zu Miraheze Meta",
+	"wiki-not-found-meta": "Zu Miraheze Meta gehen",
 	"wiki-not-found-more": "Was kann ich tun?",
 	"wiki-not-found-visitor": "Wenn du ein Wikibesucher bist:"
 }
