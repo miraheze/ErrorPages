@@ -12,7 +12,7 @@
 	"gateway-timeout": "Délai de passerelle dépassé",
 	"504-gateway-timeout": "504 Délai de passerelle dépassé",
 	"page-not-found": "Page non trouvée",
-	"page-not-found-alternatively": "Essayez de visiter la [/|page principale] ou lisez [https://fr.wikipedia.org/wiki/Erreur HTTP 404|plus d’informations] au sujet de ce type d’erreur.",
+	"page-not-found-alternatively": "Essayez de visiter la [/|page principale] ou lisez [https://fr.wikipedia.org/wiki/Erreur_HTTP_404|plus d’informations] au sujet de ce type d’erreur.",
 	"page-not-found-mainpage": "Aller à la page d’accueil",
 	"page-not-found-learnmore": "En savoir plus",
 	"page-not-found-more": "Nous n’avons pas pu trouver cette page. Vérifiez l’orthographe et essayez à nouveau, ou bien cliquez sur le lien ci-dessus.",
