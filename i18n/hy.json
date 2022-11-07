@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Armenoid",
 			"Kareyac"
 		]
 	},
 	"missingwiki": "Վիքին չի գտնվել",
 	"notfound": "Չի գտնվել",
 	"page-not-found": "Էջը չի գտնվել",
-	"page-not-found-mainpage": "Գնալ գլխավոր էջ",
+	"page-not-found-mainpage": "Անցնել գլխավոր էջ",
 	"page-not-found-learnmore": "Իմանալ ավելին",
-	"page-not-found-more": "Մենք չկարողացանք գտնել այս էջը: Ստուգեք ձեր ուղղագրությունը և նորից փորձեք կամ սեղմեք վերևի հղումը:",
+	"page-not-found-more": "Մենք չկարողացանք գտնել այս էջը։ Ստուգեք ուղղագրությունը և նորից փորձեք կամ սեղմեք վերևի հղումը։",
 	"tryagainlater": "Փորձեք ավելի ուշ:",
 	"wiki-not-found-learnmore": "Իմացեք ավելին Miraheze Meta-ի մասին"
 }

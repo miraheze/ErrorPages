@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Asma"
+			"Asma",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"did-you-mean": "هل تعني:",
 	"missingwiki": "لم يعثر على الويكي",
 	"notfound": "غير موجود",
 	"page-not-found": "الصفحة غير موجودة",
+	"page-not-found-mainpage": "اذهب إلى الصفحة الرئيسية",
 	"wiki-not-found-more": "ماذا يمكنني أن أفعل؟"
 }
