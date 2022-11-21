@@ -18,7 +18,7 @@ if ( !$wgCommandLineMode ) {
 				<meta charset="utf-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<meta name="description" content="Wiki not found">
-				<title>Wiki Temporarily Unavailable</title>
+				<title>Wiki temporarily unavailable | Miraheze</title>
 				<!-- Bootstrap core CSS -->
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 				<style>
