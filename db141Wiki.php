@@ -73,7 +73,7 @@ if ( !$wgCommandLineMode ) {
 						body {
 							background-color: #282828;
 						}
-						h1, p {
+						h1, h2, p {
 							color: white;
 						}
 					}
