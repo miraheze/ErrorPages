@@ -5,6 +5,14 @@
 			"Verdy p"
 		]
 	},
+	"wiki-temporarily-unavailable": "Title for the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"wiki-temporarily-unavailable-subtitle": "Subtitle for the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"wiki-temporarily-unavailable-more": "More information text on the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"db141wiki-join-discord": "Join Miraheze Discord Server button text on the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"db141wiki-learnmore": "Learn more on Miraheze Meta button text on the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"db141wiki-what-happened": "What happened header text on the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"db141wiki-what-happened-more": "What happened description text on the Wiki Temporarily Unavailable (db141 wiki) error page",
+	"db141wiki-find-updates-on-twitter": "Find Updates on Twitter text on the Wiki Temporarily Unavailable (db141 wiki) error page",
 	"did-you-mean": "Did you mean text on the 404 error page",
 	"missingwiki": "Title for the missing wiki error page",
 	"notfound": "Title for the 404 error page",
