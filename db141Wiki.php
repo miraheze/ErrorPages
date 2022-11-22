@@ -32,17 +32,15 @@ if ( !$wgCommandLineMode ) {
 						line-height: 2.1428571435;
 						color: inherit;
 						padding: 10px 0px;
-					}
-					/* Everything but the jumbotron gets side spacing for mobile-first views */
-					.masthead, .body-content {
-						padding-left: 15px;
-						padding-right: 15px;
-					}
-					/* Main body and and button */
-					.jumbotron {
 						text-align: center;
 						background-color: transparent;
 					}
+					/* Everything but the jumbotron gets side spacing for mobile-first views */
+					.body-content {
+						padding-left: 15px;
+						padding-right: 15px;
+					}
+					/* button */
 					.jumbotron .btn {
 						font-size: 19px;
 						padding: 14px 24px;
@@ -63,10 +61,6 @@ if ( !$wgCommandLineMode ) {
 						width: 600px;
 						line-height: 1;
 					}
-					/* Colors */
-					.green {color:#5cb85c;}
-					.orange {color:#f0ad4e;}
-					.red {color:#d9534f;}
 					/* Dark mode */
 					@media (prefers-color-scheme: dark) {
 						body {

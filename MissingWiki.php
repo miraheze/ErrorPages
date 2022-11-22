@@ -15,12 +15,14 @@ if ( !$wgCommandLineMode ) {
 		<!DOCTYPE html>
 		<html lang="{$getLanguageCode()}">
 			<head>
-				<meta charset="utf-8">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<meta name="description" content="Wiki not found">
+				<meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta name="description" content="Wiki not found" />
 				<title>{$getTranslation( 'missingwiki' )}</title>
+				<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
+				<link rel="apple-touch-icon" href="https://meta.miraheze.org/apple-touch-icon.png" />
 				<!-- Bootstrap core CSS -->
-				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 				<style>
 					/* Error Page Inline Styles */
 					body {
@@ -33,17 +35,15 @@ if ( !$wgCommandLineMode ) {
 						line-height: 2.1428571435;
 						color: inherit;
 						padding: 10px 0px;
-					}
-					/* Everything but the jumbotron gets side spacing for mobile-first views */
-					.masthead, .body-content {
-						padding-left: 15px;
-						padding-right: 15px;
-					}
-					/* Main body and and button */
-					.jumbotron {
 						text-align: center;
 						background-color: transparent;
 					}
+					/* Everything but the jumbotron gets side spacing for mobile-first views */
+					.body-content {
+						padding-left: 15px;
+						padding-right: 15px;
+					}
+					/* button */
 					.jumbotron .btn {
 						font-size: 21px;
 						padding: 14px 24px;
@@ -62,10 +62,6 @@ if ( !$wgCommandLineMode ) {
 						text-align: center;
 						width: 600px;
 					}
-					/* Colors */
-					.green {color:#5cb85c;}
-					.orange {color:#f0ad4e;}
-					.red {color:#d9534f;}
 					/* Dark mode */
 					@media (prefers-color-scheme: dark) {
 						body {
