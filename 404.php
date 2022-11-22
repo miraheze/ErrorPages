@@ -27,13 +27,14 @@ echo <<<EOF
 	<!DOCTYPE html>
 	<html lang="{$getLanguageCode()}">
 		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="Page not found">
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="description" content="Page not found" />
 			<title>{$getTranslation( 'notfound' )}</title>
-			<link rel="shortcut icon" href="/favicon.ico">
+			<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
+			<link rel="apple-touch-icon" href="https://meta.miraheze.org/apple-touch-icon.png" />
 			<!-- Bootstrap core CSS -->
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 			<style>
 				/* Error Page Inline Styles */
 				body {
@@ -74,21 +75,21 @@ echo <<<EOF
 					width: 600px;
 				}
 				/* Dark mode */
-					@media (prefers-color-scheme: dark) {
-						body {
-							background-color: #282828;
-						}
-						h1, p {
-							color: white;
-						}
+				@media (prefers-color-scheme: dark) {
+					body {
+						background-color: #282828;
 					}
+					h1, p {
+						color: white;
+					}
+				}
 			</style>
 		</head>
 		<div class="container">
 			<!-- Jumbotron -->
 			<div class="jumbotron">
 				<p>
-					<a href="https://www.miraheze.org">
+					<a href="https://miraheze.org">
 						<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" style="animation: fadein 1s;" alt="Miraheze Logo">
 					</a>
 				</p>
