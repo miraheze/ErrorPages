@@ -46,17 +46,15 @@ echo <<<EOF
 					line-height: 2.1428571435;
 					color: inherit;
 					padding: 10px 0px;
-				}
-				/* Everything but the jumbotron gets side spacing for mobile-first views */
-				.masthead, .body-content {
-					padding-left: 15px;
-					padding-right: 15px;
-				}
-				/* Main body and and button */
-				.jumbotron {
 					text-align: center;
 					background-color: transparent;
 				}
+				/* Everything but the jumbotron gets side spacing for mobile-first views */
+				.body-content {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				/* button */
 				.jumbotron .btn {
 					font-size: 21px;
 					padding: 14px 24px;
@@ -75,10 +73,6 @@ echo <<<EOF
 					text-align: center;
 					width: 600px;
 				}
-				/* Colors */
-				.green {color:#5cb85c;}
-				.orange {color:#f0ad4e;}
-				.red {color:#d9534f;}
 				/* Dark mode */
 					@media (prefers-color-scheme: dark) {
 						body {
@@ -99,7 +93,7 @@ echo <<<EOF
 					</a>
 				</p>
 				<h1>{$getTranslation( 'page-not-found' )}</h1>
-				<p style="font-size: 100%"><b>{$getTranslation( 'did-you-mean' )} <a href="$encTarget">$encTarget</a></b></p>
+				<p style="font-size: 100%;"><b>{$getTranslation( 'did-you-mean' )} <a href="$encTarget">$encTarget</a></b></p>
 				<p>{$getTranslation( 'page-not-found-more' )}</p>
 			</div>
 		</div>
