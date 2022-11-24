@@ -7,9 +7,6 @@ if ( !$wgCommandLineMode ) {
 	$getTranslation = 'getTranslation';
 
 	http_response_code( 404 );
-	$requestURL = htmlspecialchars( $_SERVER['REQUEST_URI'] );
-	date_default_timezone_set( 'UTC' ); // Set to UTC +0
-	$fullTimestamp = date( 'Y-m-d H:i:s' );
 
 	echo <<<EOF
 		<!DOCTYPE html>
