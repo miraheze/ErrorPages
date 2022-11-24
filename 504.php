@@ -1,7 +1,6 @@
 <?php
 
 header( 'Content-Type: text/html; charset=utf-8' );
-header( 'Cache-Control: s-maxage=2678400, max-age=2678400' );
 
 require_once __DIR__ . '/getTranslations.php';
 
