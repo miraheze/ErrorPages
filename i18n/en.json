@@ -4,11 +4,11 @@
 			"Universal Omega"
 		]
 	},
-	"wiki-temporarily-unavailable": "Wiki Temporarily Unavailable",
-	"wiki-temporarily-unavailable-subtitle": "The Miraheze wiki that you are trying to access is temporarily unavailable.",
-	"wiki-temporarily-unavailable-more": "You can join the Miraheze Discord server or find updates on Twitter for more information.",
+	"wiki-temporarily-unavailable": "Action required from founder",
+	"wiki-temporarily-unavailable-subtitle": "This wiki was affected by a recent database outage and the wiki's founder must decide the course of action to take.",
+	"wiki-temporarily-unavailable-more": "Bureaucrats, please click 'Take action' for more information. If you have already submitted a request, please disregard this, your wiki is slated for recreation. You can also join the Miraheze Discord server for more information.",
 	"db141wiki-join-discord": "Join Miraheze Discord Server",
-	"db141wiki-learnmore": "Learn more on Miraheze Meta",
+	"db141wiki-learnmore": "Take action",
 	"db141wiki-what-happened": "What happened?",
 	"db141wiki-what-happened-more": "Some of the disks on one of the database servers on Miraheze, the platform that hosts this wiki, had some issues that caused the entire database server and all wikis on it to go down. We are working hard on fixing this issue, but unfortunately we do not have an ETA at this time, for when this wiki will be back online. We apologise for the inconvenience. You can join our Discord server with the above link or follow our Twitter updates ([https://twitter.com/miraheze|@miraheze] or [https://twitter.com/MirahezeStatus|@MirahezeStatus]) for more information and live updates as we have them.",
 	"db141wiki-find-updates-on-twitter": "Find Updates on Twitter",
