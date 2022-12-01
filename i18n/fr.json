@@ -6,11 +6,11 @@
 			"Verdy p"
 		]
 	},
-	"wiki-temporarily-unavailable": "Wiki temporairement indisponible",
-	"wiki-temporarily-unavailable-subtitle": "Le wiki Miraheze auquel vous essayez d’accéder est temporairement indisponible.",
-	"wiki-temporarily-unavailable-more": "Vous pouvez rejoindre le serveur Discord de Miraheze ou trouver des mises à jour sur Twitter pour plus d’informations.",
+	"wiki-temporarily-unavailable": "Action requise",
+	"wiki-temporarily-unavailable-subtitle": "Ce wiki a été affecté par une panne récente de la base de données et le demandeur du wiki doit décider de la marche à suivre.",
+	"wiki-temporarily-unavailable-more": "Demandeurs de wiki, veuillez cliquer « Agir dès maintenant » pour plus d’informations. Vous pouvez également rejoindre le serveur Discord de Miraheze ou trouver des mises à jour sur Twitter pour plus d’informations.",
 	"db141wiki-join-discord": "Rejoindre le serveur Discord de Miraheze",
-	"db141wiki-learnmore": "En savoir plus sur Miraheze Méta",
+	"db141wiki-learnmore": "Agir dès maintenant",
 	"db141wiki-what-happened": "Que s’est-il passé ?",
 	"db141wiki-what-happened-more": "Certains des disques sur l’un des serveurs de base de données sur Miraheze, la plate-forme qui héberge ce wiki, avaient des problèmes qui ont provoqué l’arrêt de l’ensemble du serveur de base de données et de tous les wikis. Nous travaillons dur pour résoudre ce problème, mais malheureusement nous n’avons pas d’horaire estimé pour le moment permettant de savoir quand ce wiki sera de nouveau en ligne. Nous nous excusons pour la gêne occasionnée. Vous pouvez rejoindre notre serveur Discord avec le lien ci-dessus ou suivre nos mises à jour Twitter ([https://twitter.com/miraheze|@miraheze] ou [https://twitter.com/MirahezeStatus|@MirahezeStatus]) pour plus d’informations et mises à jour en direct au fur et à mesure que nous les avons.",
 	"db141wiki-find-updates-on-twitter": "Rechercher des mises à jour sur Twitter",

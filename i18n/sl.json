@@ -4,11 +4,11 @@
 			"Eleassar"
 		]
 	},
-	"wiki-temporarily-unavailable": "Viki trenutno ni na voljo",
-	"wiki-temporarily-unavailable-subtitle": "Viki Miraheze, do katerega poskušate dostopati, trenutno ni na voljo.",
-	"wiki-temporarily-unavailable-more": "Za več informacij se lahko pridružite strežniku Miraheze Discord ali poiščete posodobitve na Twitterju.",
+	"wiki-temporarily-unavailable": "Potrebno je ukrepanje",
+	"wiki-temporarily-unavailable-subtitle": "Na ta viki je vplival nedavni izpad baze podatkov in prosilec za viki se mora odločiti, kako bo ukrepal.",
+	"wiki-temporarily-unavailable-more": "Prosilci za viki, za več informacij kliknite »Ukrepaj zdaj«. Če ste že poslali zahtevek, to sporočilo prezrite, saj je vaš viki že predviden za ponovno ustvaritev. Za več informacij se lahko pridružite tudi strežniku Miraheze Discord.",
 	"db141wiki-join-discord": "Pridružite se strežniku Miraheze Discord",
-	"db141wiki-learnmore": "Več o Miraheze Meta",
+	"db141wiki-learnmore": "Ukrepaj zdaj",
 	"db141wiki-what-happened": "Kaj se je zgodilo?",
 	"db141wiki-what-happened-more": "Nekateri diski v enem od strežnikov podatkovnih zbirk Miraheze, platforme, ki gosti ta viki, so imeli nekaj težav, zaradi česar so celotni strežnik podatkovnih zbirk in vsi vikiji v njem prenehali delovati. To težavo si močno prizadevamo odpraviti, vendar trenutno žal še nismo predvideli, kdaj bo ta viki spet na spletu. Opravičujemo se za nevšečnosti. Za več informacij in sprotno obveščanje, ki ga lahko zagotovimo, se lahko pridružite našemu strežniku Discord z zgornjo povezavo ali sledite našim obvestilom na Twitterju ([https://twitter.com/miraheze|@miraheze] pziroma [https://twitter.com/MirahezeStatus|@MirahezeStatus]).",
 	"db141wiki-find-updates-on-twitter": "Poiščite obvestila na Twitterju",

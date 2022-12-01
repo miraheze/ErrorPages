@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sabelöga"
+			"Sabelöga",
+			"Tore"
 		]
 	},
+	"wiki-temporarily-unavailable": "Åtgärd krävs",
+	"db141wiki-learnmore": "Vidta åtgärder nu",
 	"did-you-mean": "Menade du:",
 	"missingwiki": "Wikin hittades inte",
 	"notfound": "Hittades inte",

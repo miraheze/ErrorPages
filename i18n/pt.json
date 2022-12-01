@@ -4,11 +4,11 @@
 			"Hamilton Abreu"
 		]
 	},
-	"wiki-temporarily-unavailable": "Wiki temporariamente indisponível",
-	"wiki-temporarily-unavailable-subtitle": "A wiki Miraheze que está a tentar aceder está temporariamente indisponível.",
-	"wiki-temporarily-unavailable-more": "Para obter mais informações pode juntar-se ao servidor Discord do Miraheze ou encontrar atualizações no Twitter.",
+	"wiki-temporarily-unavailable": "Ação necessária",
+	"wiki-temporarily-unavailable-subtitle": "Esta wiki foi afetada por uma indisponibilidade recente da base de dados e o autor do pedido da wiki tem de decidir o que fazer.",
+	"wiki-temporarily-unavailable-more": "Os autores de pedidos de wikis devem clicar, por favor, em 'Agir agora' para obter mais informações. Se já enviaram um pedido, ignorem esta mensagem; a vossa wiki já foi programada para ser recriada. Podem também juntar-se ao servidor Discord do Miraheze para obter mais informações.",
 	"db141wiki-join-discord": "Junte-se ao servidor Discord do Miraheze",
-	"db141wiki-learnmore": "Saiba mais na Miraheze Meta",
+	"db141wiki-learnmore": "Agir agora",
 	"db141wiki-what-happened": "O que aconteceu?",
 	"db141wiki-what-happened-more": "Alguns discos num dos servidores da base de dados do Miraheze, a plataforma que aloja esta wiki, tiveram problemas que causaram a paragem de todo o servidor da base de dados e de todas as wikis nele existentes. Estamos a envidar todos os esforços para corrigir este problema mas, infelizmente, neste momento não temos um prazo esperado para esta wiki voltar a estar disponível. Pedimos desculpas pelo inconveniente. Para obter mais informações e atualizações ao vivo quando as tivermos, pode juntar-se ao nosso servidor Discord usando a hiperligação acima ou seguir as nossas atualizações no Twitter ([https://twitter.com/miraheze|@miraheze] ou [https://twitter.com/MirahezeStatus|@MirahezeStatus]).",
 	"db141wiki-find-updates-on-twitter": "Procurar atualizações no Twitter",
