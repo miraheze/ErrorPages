@@ -90,7 +90,7 @@ echo <<<EOF
 			<div class="jumbotron">
 				<p>
 					<a href="https://miraheze.org">
-						<img src="https://static.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" style="animation: fadein 1s;" alt="Miraheze Logo">
+						<img src="https://static-new.miraheze.org/metawiki/3/35/Miraheze_Logo.svg" style="animation: fadein 1s;" alt="Miraheze Logo">
 					</a>
 				</p>
 				<h1>{$getTranslation( 'page-not-found' )}</h1>
