@@ -99,5 +99,5 @@ if ( !$wgCommandLineMode ) {
 	global $wgDBname;
 
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
-	echo "The wiki database '{$wgDBname}' is on db141 and therefore is currently down." . PHP_EOL;
+	exit( "The wiki database '{$wgDBname}' is on db141 and therefore is currently down." . PHP_EOL );
 }
