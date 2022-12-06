@@ -82,8 +82,8 @@ if ( !$wgCommandLineMode ) {
 					<p class="lead">{$getTranslation( 'wiki-temporarily-unavailable-subtitle' )}</p>
 					<p style="font-size: 80%;">{$getTranslation( 'wiki-temporarily-unavailable-more' )}</p>
 					<p>
-						<a href="https://meta.miraheze.org/wiki/Tech:Wiki_recreations" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'db141wiki-learnmore' )}</a>
-						<a href="https://discord.gg/TVAJTE4CUn" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'db141wiki-join-discord' )}</a>
+						<a href="https://meta.miraheze.org/wiki/Tech:Wiki_recreations" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'c3wiki-learnmore' )}</a>
+						<a href="https://discord.gg/TVAJTE4CUn" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'c3wiki-join-discord' )}</a>
 					</p>
 				</div>
 			</div>
@@ -99,5 +99,5 @@ if ( !$wgCommandLineMode ) {
 	global $wgDBname;
 
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
-	exit( "The wiki database '{$wgDBname}' is on db141 and therefore is currently down." . PHP_EOL );
+	exit( "The wiki database '{$wgDBname}' was on c3 and therefore is currently unavailable." . PHP_EOL );
 }
