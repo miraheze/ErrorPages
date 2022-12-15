@@ -5,6 +5,9 @@
 			"Verdy p"
 		]
 	},
+	"database-maintenance": "Title for database maintenance error page",
+	"wiki-scheduled-database-maintenance": "More info on the database maintenance error page",
+	"database-maintenance-join-discord": "Join Discord button text on the database maintenance error page",
 	"wiki-temporarily-unavailable": "Title for the Wiki Temporarily Unavailable (db141 wiki) error page",
 	"wiki-temporarily-unavailable-subtitle": "Subtitle for the Wiki Temporarily Unavailable (db141 wiki) error page",
 	"wiki-temporarily-unavailable-more": "More information text on the Wiki Temporarily Unavailable (db141 wiki) error page",
