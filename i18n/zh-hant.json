@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"捍粵者"
 		]
 	},
 	"did-you-mean": "您是不是指：",
@@ -17,7 +18,7 @@
 	"tryagainlater": "請稍後再試。",
 	"wiki-not-found": "我們找不到這個 wiki。請檢查您的拼寫內容後再試一次。",
 	"wiki-not-found-archiveorg": "在 Archive.org 上搜尋",
-	"wiki-not-found-bureaucrat": "如果您是 wiki 的行政員：",
+	"wiki-not-found-bureaucrat": "如果您是wiki行政員：",
 	"wiki-not-found-browse": "此 wiki 不在我們的伺服器上。您可以在[https://meta.miraheze.org/wiki/Special:WikiDiscover|這裡]從我們的網路上瀏覽 wiki 或是[https://archive.org/search.php?query=miraheze|查看 archive.org 上的存檔]。",
 	"wiki-not-found-contact": "如果這有問題，請[https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|聯絡我們]。",
 	"wiki-not-found-goback": "返回上一頁",
