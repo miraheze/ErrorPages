@@ -10,7 +10,7 @@ if ( !$wgCommandLineMode ) {
 
 	http_response_code( 500 );
 
-	echo <<<EOF
+	$output = <<<EOF
 		<!DOCTYPE html>
 		<html lang="{$getLanguageCode()}">
 			<head>
@@ -93,6 +93,8 @@ if ( !$wgCommandLineMode ) {
 			</div>
 		</html>
 	EOF;
+
+	header( 'Content-length: ' . strlen( $output ) );
 
 	die( 1 );
 } else {
