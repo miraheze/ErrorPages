@@ -96,6 +96,8 @@ if ( !$wgCommandLineMode ) {
 
 	header( 'Content-length: ' . strlen( $output ) );
 
+	echo $output
+
 	die( 1 );
 } else {
 	global $wgDBname;
