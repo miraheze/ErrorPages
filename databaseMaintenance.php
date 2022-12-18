@@ -65,7 +65,7 @@ echo <<<EOF
 					body {
 						background-color: #282828;
 					}
-					h1, h2, p {
+					h1, h2, p, small {
 						color: white;
 					}
 				}
