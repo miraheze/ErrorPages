@@ -80,8 +80,7 @@ echo <<<EOF
 				<p>
 					<a href="https://discord.gg/TVAJTE4CUn" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'database-maintenance-join-discord' )}</a>
 				</p>
-				<small>Please note that this has nothing to do with the db141 outage. There should not be any risk of data loss, and we do have backups in place.</small>
-				<small>This wiki should be back shortly. Maintenance is scheduled to end at 05:00 UTC on Monday, 19 December 2022, but this wiki should be back long before then. Thank you for your patience.</small>
+				<small>Maintenance has been extended for this database cluster to 12:00 UTC, Monday, 19 December, 2022. Please check back soon.</small>
 			</div>
 		</div>
 		<div class="bottom-links">
