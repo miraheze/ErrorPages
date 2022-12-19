@@ -9,7 +9,7 @@
 	"wiki-unscheduled-database-maintenance": "This wiki is on a database server that is currently undergoing unscheduled maintenance. Please try again later.",
 	"database-maintenance-join-discord": "Join the Miraheze Discord server for more information",
 	"wiki-temporarily-unavailable": "Wiki temporarily unavailable",
-	"wiki-temporarily-unavailable-subtitle": "A database issue has occured and this wiki is offline.",
+	"wiki-temporarily-unavailable-subtitle": "A database issue has occured and this wiki is unavailable.",
 	"wiki-temporarily-unavailable-more": "We have been able to restore the data from the original db141 disks and will use that to restore this wiki. We will then merge all new edits back into your wiki.",
 	"db141wiki-join-discord": "Join Miraheze Discord Server",
 	"db141wiki-learnmore": "Learn more",
