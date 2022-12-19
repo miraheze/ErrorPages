@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"列维劳德",
 			"捍粵者"
 		]
 	},
+	"database-maintenance": "Wiki 目前正在維修中",
+	"database-maintenance-join-discord": "請加入 Miraheze 的 Discord 伺服器以了解更多資訊",
 	"did-you-mean": "您是不是指：",
 	"missingwiki": "找不到 wiki",
 	"notfound": "沒有找到",

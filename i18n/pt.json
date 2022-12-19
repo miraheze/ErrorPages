@@ -4,6 +4,9 @@
 			"Hamilton Abreu"
 		]
 	},
+	"database-maintenance": "Wiki está em manutenção",
+	"wiki-scheduled-database-maintenance": "Esta wiki está num servidor de base de dados que neste momento está a ser submetido a uma manutenção programada. Tente novamente mais tarde, por favor.",
+	"database-maintenance-join-discord": "Junte-se ao servidor Discord do Miraheze para mais informações",
 	"wiki-temporarily-unavailable": "Ação necessária",
 	"wiki-temporarily-unavailable-subtitle": "Esta wiki foi afetada por uma indisponibilidade recente da base de dados e o autor do pedido da wiki tem de decidir o que fazer.",
 	"wiki-temporarily-unavailable-more": "Os autores de pedidos de wikis devem clicar, por favor, em 'Agir agora' para obter mais informações. Se já enviaram um pedido, ignorem esta mensagem; a vossa wiki já foi programada para ser recriada. Podem também juntar-se ao servidor Discord do Miraheze para obter mais informações.",

@@ -4,6 +4,9 @@
 			"Eleassar"
 		]
 	},
+	"database-maintenance": "Trenutno poteka vzdrževanje vikija",
+	"wiki-scheduled-database-maintenance": "Ta viki je v podatkovnem strežniku, na katerem trenutno poteka načrtovano vzdrževanje. Prosimo, poskusite znova pozneje.",
+	"database-maintenance-join-discord": "Za več informacij se pridružite strežniku Miraheze Discord",
 	"wiki-temporarily-unavailable": "Potrebno je ukrepanje",
 	"wiki-temporarily-unavailable-subtitle": "Na ta viki je vplival nedavni izpad baze podatkov in prosilec za viki se mora odločiti, kako bo ukrepal.",
 	"wiki-temporarily-unavailable-more": "Prosilci za viki, za več informacij kliknite »Ukrepaj zdaj«. Če ste že poslali zahtevek, to sporočilo prezrite, saj je vaš viki že predviden za ponovno ustvaritev. Za več informacij se lahko pridružite tudi strežniku Miraheze Discord.",
