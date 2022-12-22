@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Buehl",
 			"MathXplore",
 			"Mugenpman"
 		]
 	},
+	"database-maintenance": "メンテナンス中のWiki",
+	"wiki-temporarily-unavailable": "このウィキは一時的に利用できません",
+	"db141wiki-join-discord": "MirahezeのDiscordサーバーに参加する",
+	"db141wiki-learnmore": "もっと詳しく",
+	"db141wiki-what-happened": "何が起きたか",
+	"db141wiki-find-updates-on-twitter": "Twitter で最新情報を探す",
 	"did-you-mean": "あなたは以下のことを意味していますか:",
 	"missingwiki": "ウィキが見つかりませんでした",
 	"notfound": "見つかりません",
@@ -13,6 +20,11 @@
 	"page-not-found": "ページが見つかりません",
 	"page-not-found-mainpage": "メインページへ移動する",
 	"page-not-found-learnmore": "もっと詳しく",
+	"tryagainlater": "数分後にまたお試しください。",
 	"wiki-not-found-archiveorg": "Archive.org で検索",
-	"wiki-not-found-goback": "前のページに戻る"
+	"wiki-not-found-goback": "前のページに戻る",
+	"wiki-not-found-learnmore": "Miraheze メタの詳細",
+	"wiki-not-found-meta": "Miraheze Metaに行く",
+	"wiki-not-found-more": "何ができますか",
+	"wiki-not-found-visitor": "もしウィキの訪問者なら"
 }

@@ -8,11 +8,12 @@
 	"wiki-temporarily-unavailable-subtitle": "Miraheze wiki kojem pokušavate pristupiti je privremeno nedostupan.",
 	"wiki-temporarily-unavailable-more": "Možete se pridružiti poslužitelju Miraheze Discord ili pronaći ažuriranja na Twitteru za više informacija.",
 	"db141wiki-join-discord": "Pridružite se poslužitelju Miraheze Discord",
-	"db141wiki-learnmore": "Saznajte više na Miraheze Meta",
+	"db141wiki-learnmore": "Saznajte više",
 	"db141wiki-what-happened": "Što se dogodilo?",
 	"db141wiki-what-happened-more": "Neki diskovi na jednom od poslužitelja baze podataka na Miraheze-u, platformi koja hostira ovaj wiki, imali su problema koji su uzrokovali prestanak rada cijelog poslužitelja baze podataka i svih wikija na njemu. Naporno radimo na rješavanju ovog problema, ali nažalost trenutno nemamo ETA kada će ovaj wiki ponovno biti online. Ispričavamo se zbog neugodnosti. Možete se pridružiti našem Discord poslužitelju s gornjom vezom ili pratiti naša ažuriranja na Twitteru ([https://twitter.com/miraheze|@miraheze] ili [https://twitter.com/MirahezeStatus|@MirahezeStatus]) za više informacija i ažuriranja uživo kao što ih imamo.",
 	"db141wiki-find-updates-on-twitter": "Pronađite ažuriranja na Twitteru",
 	"did-you-mean": "Da li ste mislili:",
 	"missingwiki": "Wiki nije pronađen",
-	"page-not-found": "Stranica nije pronađena"
+	"page-not-found": "Stranica nije pronađena",
+	"page-not-found-learnmore": "Saznajte više"
 }
