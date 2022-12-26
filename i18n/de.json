@@ -6,6 +6,18 @@
 			"ThisCarthing"
 		]
 	},
+	"database-maintenance": "Wiki wird gewartet",
+	"wiki-scheduled-database-maintenance": "Dieses Wiki befindet sich auf einem Datenbankserver, der gerade gewartet wird. Bitte versuche es später noch einmal.",
+	"wiki-unscheduled-database-maintenance": "Dieses Wiki befindet sich auf einem Datenbankserver, der derzeit außerplanmäßig gewartet wird. Bitte versuche es später noch einmal.",
+	"database-maintenance-join-discord": "Tritt dem Miraheze Discord Server für weitere Informationen bei",
+	"wiki-temporarily-unavailable": "Wiki vorübergehend nicht verfügbar",
+	"wiki-temporarily-unavailable-subtitle": "Es ist ein Datenbankproblem aufgetreten und dieses Wiki ist nicht verfügbar.",
+	"wiki-temporarily-unavailable-more": "Wir konnten die Daten von den ursprünglichen db141-Disketten wiederherstellen und werden diese verwenden, um dieses Wiki wiederherzustellen. Wir werden dann alle neuen Bearbeitungen wieder in dein Wiki einfügen.",
+	"db141wiki-join-discord": "Miraheze Discord Server beitreten",
+	"db141wiki-learnmore": "Mehr erfahren",
+	"db141wiki-what-happened": "Was ist passiert?",
+	"db141wiki-what-happened-more": "Einige der Festplatten auf einem der Datenbankserver von Miraheze, der Plattform, auf der dieses Wiki läuft, hatten Probleme, die dazu führten, dass der gesamte Datenbankserver und alle darauf befindlichen Wikis ausfielen. Wir arbeiten mit Hochdruck daran, dieses Problem zu beheben, aber leider können wir derzeit nicht sagen, wann das Wiki wieder online sein wird. Wir entschuldigen uns für die Unannehmlichkeiten. Du kannst unserem Discord-Server über den obigen Link beitreten oder unseren Twitter-Updates folgen ([https://twitter.com/miraheze|@miraheze] oder [https://twitter.com/MirahezeStatus|@MirahezeStatus]), um weitere Informationen und Live-Updates zu erhalten.",
+	"db141wiki-find-updates-on-twitter": "Updates auf Twitter finden",
 	"did-you-mean": "Meintest du:",
 	"missingwiki": "Wiki nicht gefunden",
 	"notfound": "Nicht gefunden",

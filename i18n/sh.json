@@ -4,8 +4,9 @@
 			"Vlad5250"
 		]
 	},
+	"wiki-unscheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u neplaniranom održavanju. Molimo pokušajte ponovo kasnije.",
 	"wiki-temporarily-unavailable": "Wiki privremeno je nedostupan",
-	"wiki-temporarily-unavailable-subtitle": "Miraheze wiki kojem pokušavate pristupiti je privremeno nedostupan.",
+	"wiki-temporarily-unavailable-subtitle": "Došlo je do problema s bazom podataka i ovaj viki nije dostupan.",
 	"wiki-temporarily-unavailable-more": "Možete se pridružiti poslužitelju Miraheze Discord ili pronaći ažuriranja na Twitteru za više informacija.",
 	"db141wiki-join-discord": "Pridružite se poslužitelju Miraheze Discord",
 	"db141wiki-learnmore": "Saznajte više",
