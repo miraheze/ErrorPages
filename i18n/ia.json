@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"database-maintenance": "Wiki in curso de mantenentia",
+	"wiki-scheduled-database-maintenance": "Iste wiki es sur un servitor de base de datos que es in mantenentia planificate in iste momento. Per favor tenta lo de novo plus tarde.",
+	"wiki-unscheduled-database-maintenance": "Iste wiki es sur un servitor de base de datos que es in mantenentia non planificate in iste momento. Per favor tenta lo de novo plus tarde.",
+	"database-maintenance-join-discord": "Entra in le servitor Discord de Miraheze pro plus information",
+	"wiki-temporarily-unavailable": "Wiki temporarimente indisponibile",
+	"wiki-temporarily-unavailable-subtitle": "Un problema del base de datos ha occurrite e iste wiki es indisponibile.",
+	"wiki-temporarily-unavailable-more": "Nos ha potite restaurar le datos del discos db141 original e nos usara istes pro restaurar iste wiki. Alora nos fusionara tote le nove modificationes in tu wiki.",
+	"db141wiki-join-discord": "Entrar in le servitor Discord de Miraheze",
+	"db141wiki-learnmore": "Leger plus",
+	"db141wiki-what-happened": "Que ha occurrite?",
+	"db141wiki-what-happened-more": "Alcunes del discos sur un del servitores de base de datos de Miraheze, le platteforma que alberga iste wiki, habeva alcun problemas que causava le arresto de tote le servitor del base de datos e de tote le wikis sur illo. Nos travalia duro a reparar iste problema, ma infortunatemente nos non ancora sape quando iste wiki essera de novo in linea. Nos nos excusa pro le inconvenientia. Tu pote entrar in nostre servitor Discord con le ligamine supra o sequer nostre actualisationes de Twitter ([https://twitter.com/miraheze|@miraheze] o [https://twitter.com/MirahezeStatus|@MirahezeStatus]) pro plus information e actualisationes in directo.",
+	"db141wiki-find-updates-on-twitter": "Cercar actualisationes sur Twitter",
+	"did-you-mean": "Vole tu dicer:",
+	"missingwiki": "Wiki non trovate",
+	"notfound": "Non trovate",
+	"gateway-timeout": "Tempore limite del passarella excedite",
+	"504-gateway-timeout": "504 Tempore limite del passarella excedite",
+	"page-not-found": "Pagina non trovate",
+	"page-not-found-alternatively": "Tenta visitar le [/|Main Page] o lege [https://en.wikipedia.org/wiki/HTTP_404|plus information] sur iste typo de error.",
+	"page-not-found-mainpage": "Ir al pagina principal",
+	"page-not-found-learnmore": "Leger plus",
+	"page-not-found-more": "Impossibile trovar iste pagina. Verifica tu orthographia e tenta lo de novo o clicca sur le ligamine hic supra.",
+	"tryagainlater": "Tenta lo de novo plus tarde.",
+	"wiki-not-found": "Nos non ha potite trovar iste wiki. Verifica tu orthographai e tenta lo de novo.",
+	"wiki-not-found-archiveorg": "Cercar sur Archive.org",
+	"wiki-not-found-bureaucrat": "Si tu es le bureaucrate del wiki:",
+	"wiki-not-found-browse": "Iste wiki non existe sur nostre servitores. Tu pote percurrer le wikis sur nostre rete [https://meta.miraheze.org/wiki/Special:WikiDiscover|hic] o [https://archive.org/search.php?query=miraheze|vider le archivos de archive.org].",
+	"wiki-not-found-contact": "Si isto es un problema, per favor [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|contacta nos].",
+	"wiki-not-found-goback": "Retornar al pagina precedente",
+	"wiki-not-found-learnmore": "Leger plus sur Miraheze Meta",
+	"wiki-not-found-meta": "Ir a Miraheze Meta",
+	"wiki-not-found-more": "Que pote io facer?",
+	"wiki-not-found-visitor": "Si tu es un visitator del wiki:"
+}
