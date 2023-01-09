@@ -4,6 +4,7 @@
 			"Vlad5250"
 		]
 	},
+	"wiki-scheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u redovnom održavanju. Molimo pokušajte ponovo kasnije.",
 	"wiki-unscheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u neplaniranom održavanju. Molimo pokušajte ponovo kasnije.",
 	"wiki-temporarily-unavailable": "Wiki privremeno je nedostupan",
 	"wiki-temporarily-unavailable-subtitle": "Došlo je do problema s bazom podataka i ovaj viki nije dostupan.",
