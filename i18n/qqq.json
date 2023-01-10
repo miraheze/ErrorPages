@@ -8,7 +8,6 @@
 	"database-maintenance": "Title for database maintenance error page",
 	"wiki-scheduled-database-maintenance": "More info on the database maintenance error page",
 	"database-maintenance-join-discord": "Join Discord button text on the database maintenance error page",
-	"wiki-temporarily-unavailable": "Title for the Wiki Temporarily Unavailable (db141 wiki) error page",
 	"did-you-mean": "Did you mean text on the 404 error page",
 	"missingwiki": "Title for the missing wiki error page",
 	"notfound": "Title for the 404 error page",
