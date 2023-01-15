@@ -19,7 +19,7 @@ if ( !$wgCommandLineMode ) {
 				<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
 				<link rel="apple-touch-icon" href="https://meta.miraheze.org/apple-touch-icon.png" />
 				<!-- Bootstrap core CSS -->
-				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" />
 				<style>
 					/* Error Page Inline Styles */
 					body {
