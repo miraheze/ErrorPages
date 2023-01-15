@@ -1,4 +1,4 @@
-+<?php
+<?php
 
 if ( !$wgCommandLineMode ) {
 	require_once __DIR__ . '/getTranslations.php';
