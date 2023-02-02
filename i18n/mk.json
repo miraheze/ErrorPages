@@ -8,6 +8,8 @@
 	"missingwiki": "Викито не е пронајдено",
 	"notfound": "Не е пронајдено",
 	"page-not-found": "Страницата не е пронајдена",
+	"page-not-found-mainpage": "Одете на главната страница",
+	"page-not-found-learnmore": "Дознајте повеќе",
 	"wiki-not-found-bureaucrat": "Ако сте бирократ на викито:",
 	"wiki-not-found-browse": "Ова вики не постои на нашите опслужувачи. Можете да прелистувате викија на нашата мрежа [https://meta.miraheze.org/wiki/Special:WikiDiscover|тука] или [https://archive.org/search.php?query=miraheze|да ги гледате архивите на archive.org].",
 	"wiki-not-found-more": "Што можам да направам?",
