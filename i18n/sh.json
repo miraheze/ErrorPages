@@ -6,8 +6,13 @@
 	},
 	"wiki-scheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u redovnom održavanju. Molimo pokušajte ponovo kasnije.",
 	"wiki-unscheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u neplaniranom održavanju. Molimo pokušajte ponovo kasnije.",
+	"database-maintenance-join-discord": "Pridružite se Miraheze Discord serveru za više informacija",
 	"did-you-mean": "Da li ste mislili:",
-	"missingwiki": "Wiki nije pronađen",
+	"missingwiki": "Viki nije pronađen",
+	"notfound": "Nije pronađen",
 	"page-not-found": "Stranica nije pronađena",
-	"page-not-found-learnmore": "Saznajte više"
+	"page-not-found-mainpage": "Idi na glavnu stranicu",
+	"page-not-found-learnmore": "Saznajte više",
+	"page-not-found-more": "Nismo mogli pronaći ovu stranicu. Provjerite pravopis i pokušajte ponovno ili kliknite gornji link.",
+	"wiki-not-found": "Nismo mogli pronaći ovaj viki. Provjerite pravopis i pokušajte ponovno."
 }
