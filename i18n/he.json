@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"database-maintenance": "הוויקי בתהליך תחזוקה",
+	"wiki-scheduled-database-maintenance": "הוויקי הזה נמצא בשרת מסד נתונים שעובר כעת תחזוקה מתוכננת. נא לנסות שוב מאוחר יותר.",
+	"wiki-unscheduled-database-maintenance": "הוויקי הזה נמצא בשרת מסד נתונים שעובר כעת תחזוקה לא מתוכננת. נא לנסות שוב מאוחר יותר.",
+	"database-maintenance-join-discord": "אפשר להצטרף לשרת דיסקורס של Miraheze למידע נוסף",
+	"did-you-mean": "האם התכוונת לכתוב:",
+	"missingwiki": "ויקי לא נמצא",
+	"notfound": "לא נמצא",
+	"gateway-timeout": "תפוגת זמן של שרת שער",
+	"504-gateway-timeout": "504 תפוגת זמן של שרת שער",
+	"page-not-found": "הדף לא נמצא",
+	"page-not-found-alternatively": "נא לנסות לבקר ב[/|דף הראשי] או לקרוא [https://en.wikipedia.org/wiki/HTTP_404|מידע נוסף] על סוג השגיאה הזה.",
+	"page-not-found-mainpage": "מעבר לעמוד הראשי",
+	"page-not-found-learnmore": "מידע נוסף",
+	"page-not-found-more": "לא הצלחנו למצוא את הדף הזה. נא לבדוק את האיות שלך ולנסות שוב או ללחוץ על הקישור למעלה.",
+	"tryagainlater": "נא לנסות שוב מאוחר יותר.",
+	"wiki-not-found": "לא הצלחנו למצוא את הוויקי הזה. נא לבדוק את האיות שלך ונסה שוב.",
+	"wiki-not-found-archiveorg": "לחפש באתר Archive.org",
+	"wiki-not-found-bureaucrat": "אם יש לך הרשאות בירוקרט בוויקי:",
+	"wiki-not-found-browse": "הוויקי הזה לא קיים בשרתים שלנו. באפשרותך לגלוש באתרי ויקי ברשת שלנו [https://meta.miraheze.org/wiki/Special:WikiDiscover|כאן] או [https://archive.org/search.php?query=miraheze|לצפות בארכיונים באתר archive.org].",
+	"wiki-not-found-contact": "אם זאת בעיה, נא [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|ליצור קשר].",
+	"wiki-not-found-goback": "חזרה לדף הקודם",
+	"wiki-not-found-learnmore": "למידע נוסף באתר Miraheze Meta",
+	"wiki-not-found-meta": "מעבר לאתר Miraheze Meta",
+	"wiki-not-found-more": "מה אפשר לעשות?",
+	"wiki-not-found-visitor": "אם רק באת לבקר בוויקי:"
+}

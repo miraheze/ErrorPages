@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Universal Omega",
 			"Verdy p"
 		]
@@ -14,12 +15,12 @@
 	"gateway-timeout": "Title for the 504 error page",
 	"504-gateway-timeout": "Header on the 504 error page",
 	"page-not-found": "Header on the 404 error page",
-	"page-not-found-alternatively": "Alternative options text on the 404 error page.\n\n'''FIXME:''' https://phabricator.wikimedia.org/T310271",
+	"page-not-found-alternatively": "Alternative options text on the 404 error page.\n\n(The links are in single brackets. It's not a mistake. It's similar to MediaWiki syntax, but it's not actually MediaWiki.)",
 	"page-not-found-more": "Additional descriptive text on the 404 error page",
 	"wiki-not-found": "Descriptive text on the missing wiki error page",
 	"wiki-not-found-bureaucrat": "Header for information for wiki bureaucrats on the missing wiki error page",
-	"wiki-not-found-browse": "Alternative options to browse this wiki on archive.org, shown on the missing wiki error page.\n\n'''FIXME:''' https://phabricator.wikimedia.org/T310271",
-	"wiki-not-found-contact": "Contact us text for the missing wiki error page.\n\n'''FIXME:''' https://phabricator.wikimedia.org/T310271",
+	"wiki-not-found-browse": "Alternative options to browse this wiki on archive.org, shown on the missing wiki error page.\n\n(The links are in single brackets. It's not a mistake. It's similar to MediaWiki syntax, but it's not actually MediaWiki.)",
+	"wiki-not-found-contact": "Contact us text for the missing wiki error page.\n\n(The links are in single brackets. It's not a mistake. It's similar to MediaWiki syntax, but it's not actually MediaWiki.)",
 	"wiki-not-found-meta": "Text for the 'Take me to Miraheze Meta' button on the missing wiki error page",
 	"wiki-not-found-more": "'What can I do?' text on the missing wiki error page",
 	"wiki-not-found-visitor": "Header for information for wiki visitors on the missing wiki error page"
