@@ -4,8 +4,9 @@
 			"Vlad5250"
 		]
 	},
-	"wiki-scheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u redovnom održavanju. Molimo pokušajte ponovo kasnije.",
-	"wiki-unscheduled-database-maintenance": "Ovaj viki nalazi se na poslužitelju baze podataka koji je trenutno u neplaniranom održavanju. Molimo pokušajte ponovo kasnije.",
+	"database-maintenance": "Na vikiju je u toku redovno održavanje",
+	"wiki-scheduled-database-maintenance": "Ovaj viki nalazi se na serveru baze podataka koji je trenutno u redovnom održavanju. Molimo pokušajte ponovo kasnije.",
+	"wiki-unscheduled-database-maintenance": "Ovaj viki nalazi se na serveru baze podataka koji je trenutno u neplaniranom održavanju. Molimo pokušajte ponovo kasnije.",
 	"database-maintenance-join-discord": "Pridružite se Miraheze Discord serveru za više informacija",
 	"did-you-mean": "Da li ste mislili:",
 	"missingwiki": "Viki nije pronađen",
