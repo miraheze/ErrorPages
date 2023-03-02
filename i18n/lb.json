@@ -9,7 +9,14 @@
 	"missingwiki": "Wiki gouf net fonnt",
 	"notfound": "Net fonnt",
 	"page-not-found": "Säit Net Fonnt",
+	"page-not-found-mainpage": "Op d'Haaptsäit goen",
 	"page-not-found-learnmore": "Fir méi ze wëssen",
 	"page-not-found-more": "Mir konnten dës Säit net fannen. Iwwerpréift Är Schreifweis a probéiert nach eng Kéier oder klickt op de Link uewendriwwer.",
+	"tryagainlater": "Probéiert méi spéit nach eng Kéier.",
+	"wiki-not-found": "Mir konnten dës Wiki net fannen. Kontrolléiert Är Schreifweis a probéiert nach eng Kéier.",
+	"wiki-not-found-archiveorg": "Op Archive.org sichen",
+	"wiki-not-found-bureaucrat": "Wann Dir de Wiki-Bürokrat sidd:",
+	"wiki-not-found-contact": "Wann dat e Problem ass, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|kontaktéiert eis] wgl.",
+	"wiki-not-found-meta": "Op Miraheze Meta goen",
 	"wiki-not-found-more": "Wat kann ech maachen?"
 }
