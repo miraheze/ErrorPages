@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agent",
+			"OriginReboot"
+		]
+	},
+	"database-maintenance": "Wiki en mantenimiento",
+	"wiki-scheduled-database-maintenance": "Este wiki se encuentra en un servidor de base de datos que actualmente se encuentra en mantenimiento. Por favor, inténtelo de nuevo más tarde.",
+	"wiki-unscheduled-database-maintenance": "Este wiki se encuentra en un servidor de base de datos que actualmente se encuentra en mantenimiento no programado. Por favor, inténtelo de nuevo más tarde.",
+	"database-maintenance-join-discord": "Únase al servidor de Discord de Miraheze para obtener más información.",
+	"did-you-mean": "¿Quiso decir $1?",
+	"notfound": "No encontrado",
+	"page-not-found-learnmore": "Aprenda más",
+	"wiki-not-found-more": "¿Qué puedo hacer?"
+}
