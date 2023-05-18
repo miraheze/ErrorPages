@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Okras"
 		]
 	},
 	"missingwiki": "Вики не найдена",
@@ -14,5 +15,6 @@
 	"wiki-not-found": "Мы не смогли найти эту вики. Проверьте правильность написания и повторите попытку.",
 	"wiki-not-found-archiveorg": "Поиск на Archive.org",
 	"wiki-not-found-goback": "Вернуться на предыдущую страницу",
-	"wiki-not-found-learnmore": "Узнайте больше о Miraheze Meta"
+	"wiki-not-found-learnmore": "Узнайте больше о Miraheze Meta",
+	"wiki-not-found-more": "Что я могу сделать?"
 }
