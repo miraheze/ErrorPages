@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"database-maintenance": "Vykdoma viki priežiūra",
+	"wiki-scheduled-database-maintenance": "Ši viki yra duomenų bazės serveryje, kuriame šiuo metu atliekama planinė priežiūra. Pabandykite dar kartą vėliau.",
+	"wiki-unscheduled-database-maintenance": "Ši viki yra duomenų bazės serveryje, kuriame šiuo metu atliekama neplaninė priežiūra. Pabandykite dar kartą vėliau.",
+	"database-maintenance-join-discord": "Norėdami gauti daugiau informacijos, prisijunkite prie „Miraheze“ „Discord“ serverio",
+	"did-you-mean": "Ar turite omenyje:",
+	"missingwiki": "Viki nerasta",
+	"notfound": "Nerasta",
+	"page-not-found": "Puslapis nerastas",
+	"page-not-found-alternatively": "Pabandykite apsilankyti [/|pagrindiniame puslapyje] arba skaitykite [https://en.wikipedia.org/wiki/HTTP_404|daugiau informacijos] apie šio tipo klaidą.",
+	"page-not-found-mainpage": "Eiti į pagrindinį puslapį",
+	"page-not-found-learnmore": "Sužinokite daugiau",
+	"page-not-found-more": "Mums nepavyko rasti šio puslapio. Patikrinkite rašybą ir bandykite dar kartą arba spustelėkite aukščiau esančią nuorodą.",
+	"tryagainlater": "Pabandyti dar kartą vėliau.",
+	"wiki-not-found": "Mums nepavyko rasti šios viki. Patikrinkite rašybą ir bandykite dar kartą.",
+	"wiki-not-found-archiveorg": "Ieškokite Archive.org",
+	"wiki-not-found-bureaucrat": "Jei esate viki biurokratas:",
+	"wiki-not-found-browse": "Ši viki mūsų serveriuose neegzistuoja. Galite naršyti viki mūsų tinkle  [https://meta.miraheze.org/wiki/Special:WikiDiscover|čia] arba  [https://archive.org/search.php?query=miraheze|peržiūrėti archive.org archyvus] .",
+	"wiki-not-found-contact": "Jei tai problema, prašome [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|susisiekti su mumis].",
+	"wiki-not-found-goback": "Grįžti į ankstesnį puslapį",
+	"wiki-not-found-learnmore": "Sužinokite daugiau „Miraheze Meta“",
+	"wiki-not-found-meta": "Eiti į „Miraheze Meta“",
+	"wiki-not-found-more": "Ką galiu padaryti?",
+	"wiki-not-found-visitor": "Jei esate viki lankytojas:"
+}
