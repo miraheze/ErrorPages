@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Buehl",
+			"M1660661",
 			"MagicAho",
 			"MathXplore",
 			"Mugenpman"
 		]
 	},
 	"database-maintenance": "メンテナンス中のWiki",
+	"wiki-unscheduled-database-maintenance": "この Wiki はデータベース サーバー上にありますが、現在予定外のメンテナンスが行われています。後でもう一度試してください。",
 	"database-maintenance-join-discord": "詳細についてはMirahezeのDiscordサーバーに参加してください",
 	"did-you-mean": "あなたは以下のことを意味していますか:",
 	"missingwiki": "ウィキが見つかりませんでした",
@@ -15,12 +17,16 @@
 	"gateway-timeout": "ゲートウェイタイムアウト",
 	"504-gateway-timeout": "504 ゲートウェイタイムアウト",
 	"page-not-found": "ページが見つかりません",
+	"page-not-found-alternatively": "このタイプのエラーについては、[/|メイン ページ] にアクセスするか、[https://en.wikipedia.org/wiki/HTTP_404|詳細] を読んでみてください。",
 	"page-not-found-mainpage": "メインページへ移動する",
 	"page-not-found-learnmore": "もっと詳しく",
+	"page-not-found-more": "このページは見つかりませんでした。スペルを確認して再試行するか、上のリンクをクリックしてください。",
 	"tryagainlater": "数分後にまたお試しください。",
 	"wiki-not-found": "ウィキを見つけることができませんでした。もう一度お試しください。",
 	"wiki-not-found-archiveorg": "Archive.org で検索",
 	"wiki-not-found-bureaucrat": "あなたがウィキのビューロクラットの場合",
+	"wiki-not-found-browse": "この wiki は当社のサーバーには存在しません。当社のネットワーク [https://meta.miraheze.org/wiki/Special:WikiDiscover|こちら] または [https://archive.org/search.php?query=miraheze|archive.org アーカイブを表示] で Wiki を閲覧できます。 。",
+	"wiki-not-found-contact": "これに問題がある場合は、[https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|お問い合わせ] までご連絡ください。",
 	"wiki-not-found-goback": "前のページに戻る",
 	"wiki-not-found-learnmore": "Miraheze Metaの詳細",
 	"wiki-not-found-meta": "Miraheze Metaに行く",
