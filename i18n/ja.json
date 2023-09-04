@@ -5,11 +5,12 @@
 			"M1660661",
 			"MagicAho",
 			"MathXplore",
-			"Mugenpman"
+			"Mugenpman",
+			"Omotecho"
 		]
 	},
 	"database-maintenance": "メンテナンス中のWiki",
-	"wiki-unscheduled-database-maintenance": "この Wiki はデータベース サーバー上にありますが、現在予定外のメンテナンスが行われています。後でもう一度試してください。",
+	"wiki-unscheduled-database-maintenance": "このウィキを置いたデータベース・サーバーは、現在、予定外のメンテナンス中です。後でもう一度試してください。",
 	"database-maintenance-join-discord": "詳細についてはMirahezeのDiscordサーバーに参加してください",
 	"did-you-mean": "あなたは以下のことを意味していますか:",
 	"missingwiki": "ウィキが見つかりませんでした",
