@@ -14,7 +14,7 @@
 	"gateway-timeout": "תפוגת זמן של שרת שער",
 	"504-gateway-timeout": "504 תפוגת זמן של שרת שער",
 	"page-not-found": "הדף לא נמצא",
-	"page-not-found-alternatively": "נא לנסות לבקר ב[/|דף הראשי] או לקרוא [https://en.wikipedia.org/wiki/HTTP_404|מידע נוסף] על סוג השגיאה הזה.",
+	"page-not-found-alternatively": "נא לנסות לבקר ב[/|עמוד הראשי] או לקרוא [https://en.wikipedia.org/wiki/HTTP_404|מידע נוסף] על סוג השגיאה הזה.",
 	"page-not-found-mainpage": "מעבר לעמוד הראשי",
 	"page-not-found-learnmore": "מידע נוסף",
 	"page-not-found-more": "לא הצלחנו למצוא את הדף הזה. נא לבדוק את האיות שלך ולנסות שוב או ללחוץ על הקישור למעלה.",
