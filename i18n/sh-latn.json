@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Vlad5250",
 			"Winston Sung"
 		]
 	},
@@ -11,9 +12,13 @@
 	"did-you-mean": "Da li ste mislili:",
 	"missingwiki": "Viki nije pronađen",
 	"notfound": "Nije pronađen",
+	"gateway-timeout": "Gateway Time-out",
+	"504-gateway-timeout": "504 Gateway Time-out",
 	"page-not-found": "Stranica nije pronađena",
 	"page-not-found-mainpage": "Idi na glavnu stranicu",
 	"page-not-found-learnmore": "Saznajte više",
 	"page-not-found-more": "Nismo mogli pronaći ovu stranicu. Provjerite pravopis i pokušajte ponovno ili kliknite gornji link.",
-	"wiki-not-found": "Nismo mogli pronaći ovaj viki. Provjerite pravopis i pokušajte ponovno."
+	"tryagainlater": "Pokušajte ponovo kasnije.",
+	"wiki-not-found": "Nismo mogli pronaći ovaj viki. Provjerite pravopis i pokušajte ponovno.",
+	"wiki-not-found-archiveorg": "Pretražite na Archive.org"
 }
