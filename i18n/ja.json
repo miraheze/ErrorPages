@@ -7,10 +7,12 @@
 			"MagicAho",
 			"MathXplore",
 			"Mugenpman",
-			"Omotecho"
+			"Omotecho",
+			"背番号4のエース"
 		]
 	},
 	"database-maintenance": "メンテナンス中のWiki",
+	"wiki-scheduled-database-maintenance": "このウィキを置いたデータベース・サーバーは、現在、予定外のメンテナンス中です。後でもう一度試してください。",
 	"wiki-unscheduled-database-maintenance": "このウィキを置いたデータベース・サーバーは、現在、予定外のメンテナンス中です。後でもう一度試してください。",
 	"database-maintenance-join-discord": "詳細についてはMirahezeのDiscordサーバーに参加してください",
 	"did-you-mean": "あなたは以下のことを意味していますか:",
