@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anterdc99",
 			"Evesiesta",
 			"GuoPC",
 			"Lakejason0",
@@ -11,6 +12,8 @@
 		]
 	},
 	"database-maintenance": "wiki维护中",
+	"wiki-scheduled-database-maintenance": "此wiki所处的数据库服务器正在进行计划内维护。请稍后再试。",
+	"wiki-unscheduled-database-maintenance": "此wiki所处的数据库服务器正在进行计划外维护。请稍后再试。",
 	"database-maintenance-join-discord": "加入Miraheze的Discord服务器以了解更多信息",
 	"did-you-mean": "您是否想找：",
 	"missingwiki": "Wiki未找到",
@@ -19,6 +22,7 @@
 	"504-gateway-timeout": "504 Gateway Time-out",
 	"page-not-found": "页面未找到",
 	"page-not-found-alternatively": "尝试访问此wiki的[/|Main Page] 或阅读 [https://en.wikipedia.org/wiki/HTTP_404|英语维基百科中关于此错误的更多资讯]。",
+	"page-not-found-mainpage": "前往主页",
 	"page-not-found-learnmore": "了解更多",
 	"page-not-found-more": "在我们的服务器上找不到此页面。请检查拼写后重试或点击上面的链接。",
 	"tryagainlater": "请稍后再试。",
