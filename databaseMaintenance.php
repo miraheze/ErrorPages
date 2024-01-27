@@ -80,7 +80,7 @@ echo <<<EOF
 				<p>
 					<a href="https://discord.gg/TVAJTE4CUn" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'database-maintenance-join-discord' )}</a>
 				</p>
-				<small>Maintenance has been extended for this database cluster to 12:00 UTC, Monday, 19 December, 2022. Please check back soon.</small>
+				<!--<small>Maintenance has been extended for this database cluster to 12:00 UTC, Monday, 19 December, 2022. Please check back soon.</small>-->
 			</div>
 		</div>
 		<div class="bottom-links">
