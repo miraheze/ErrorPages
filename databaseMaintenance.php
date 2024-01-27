@@ -78,7 +78,7 @@ echo <<<EOF
 				<h1>{$getTranslation( 'database-maintenance' )}</h1>
 				<p class="lead">{$getTranslation( 'wiki-unscheduled-database-maintenance' )}</p>
 				<p>
-					<a href="https://discord.gg/TVAJTE4CUn" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'database-maintenance-join-discord' )}</a>
+					<a href="https://miraheze.org/discord" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'database-maintenance-join-discord' )}</a>
 				</p>
 				<!--<small>Maintenance has been extended for this database cluster to 12:00 UTC, Monday, 19 December, 2022. Please check back soon.</small>-->
 			</div>
