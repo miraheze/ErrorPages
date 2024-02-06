@@ -35,7 +35,7 @@ echo <<<EOF
 		</div>
 		<div class="bottom-links">
 			<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
-			<a href="/">{$getTranslation( 'page-not-found-mainpage' )</a>
+			<a href="/">{$getTranslation( 'page-not-found-mainpage' )}</a>
 		</div>
 	</html>
 EOF;
