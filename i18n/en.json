@@ -9,7 +9,9 @@
 	"wiki-unscheduled-database-maintenance": "This wiki is on a database server that is currently undergoing unscheduled maintenance. Please try again later.",
 	"database-maintenance-join-discord": "Join the Miraheze Discord server for more information",
 	"did-you-mean": "Did you mean:",
-	"missingwiki": "Wiki Not Found",
+	"deletedwiki": "Wiki deleted",
+	"deletedwiki-body": "This wiki has been deleted, either by request, inactivity, or due to policy violations.",
+	"missingwiki": "Wiki not found",
 	"notfound": "Not found",
 	"gateway-timeout": "Gateway Time-out",
 	"504-gateway-timeout": "504 Gateway Time-out",
@@ -19,6 +21,7 @@
 	"page-not-found-learnmore": "Learn more",
 	"page-not-found-more": "We couldn't find this page. Check your spelling and try again or click the link above.",
 	"tryagainlater": "Try again later.",
+	"wiki-directory": "directory",
 	"wiki-not-found": "We couldn't find this wiki. Check your spelling and try again.",
 	"wiki-not-found-archiveorg": "Search on Archive.org",
 	"wiki-not-found-bureaucrat": "If you're the wiki bureaucrat:",
@@ -28,5 +31,6 @@
 	"wiki-not-found-learnmore": "Learn more on Miraheze Meta",
 	"wiki-not-found-meta": "Go to Miraheze Meta",
 	"wiki-not-found-more": "What can I do?",
+	"wiki-not-found-startwiki": "Start this wiki",
 	"wiki-not-found-visitor": "If you're a wiki visitor:"
 }
