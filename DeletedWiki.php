@@ -6,7 +6,7 @@ if ( !$wgCommandLineMode ) {
 	$getLanguageCode = 'getLanguageCode';
 	$getTranslation = 'getTranslation';
 
-	http_response_code( 404 );
+	http_response_code( 410 );
 
 	$output = <<<EOF
 
