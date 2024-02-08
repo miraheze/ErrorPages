@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"McDutchie"
+			"McDutchie",
+			"Mitsjol"
 		]
 	},
 	"database-maintenance": "Wiki ondergaat onderhoud",
@@ -10,6 +11,7 @@
 	"wiki-unscheduled-database-maintenance": "Deze wiki staat op een databaseserver die momenteel ongepland onderhoud ondergaat. Probeer het later opnieuw.",
 	"database-maintenance-join-discord": "Word lid van de Miraheze Discord-server voor meer informatie",
 	"did-you-mean": "Bedoelde u:",
+	"deletedwiki": "Wiki verwijderd",
 	"missingwiki": "Wiki niet gevonden",
 	"notfound": "Niet gevonden",
 	"gateway-timeout": "Gateway-time-out",

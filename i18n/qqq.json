@@ -17,6 +17,7 @@
 	"page-not-found": "Header on the 404 error page",
 	"page-not-found-alternatively": "Alternative options text on the 404 error page.\n\n(The links are in single brackets. It's not a mistake. It's similar to MediaWiki syntax, but it's not actually MediaWiki.)",
 	"page-not-found-more": "Additional descriptive text on the 404 error page",
+	"wiki-directory": "Link text. The link points to https://meta.miraheze.org/wiki/Special:WikiDiscover .\n\nAppears on a page that is shown when a user tries to view a wiki that doesn't exist, e.g. https://thiswikidoesnotexist.miraheze.org/ .",
 	"wiki-not-found": "Descriptive text on the missing wiki error page",
 	"wiki-not-found-bureaucrat": "Header for information for wiki bureaucrats on the missing wiki error page",
 	"wiki-not-found-browse": "Alternative options to browse this wiki on archive.org, shown on the missing wiki error page.\n\n(The links are in single brackets. It's not a mistake. It's similar to MediaWiki syntax, but it's not actually MediaWiki.)",
