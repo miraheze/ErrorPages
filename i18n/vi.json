@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nguyenphutrong2",
+			"Pisceskaze"
+		]
+	},
+	"database-maintenance": "Wiki đang bảo trì",
+	"wiki-scheduled-database-maintenance": "Miraheze đang tiến hành bảo trì định kỳ trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
+	"wiki-unscheduled-database-maintenance": "Miraheze đang tiến hành bảo trì đột xuất trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
+	"database-maintenance-join-discord": "Tham gia máy chủ Miraheze Discord để biết thêm thông tin",
+	"did-you-mean": "Có phải bạn muốn tìm:",
+	"deletedwiki": "Wiki đã bị xóa",
+	"deletedwiki-body": "Wiki này đã bị xóa theo yêu cầu, do không hoạt động hoặc do vi phạm chính sách.",
+	"missingwiki": "Không tìm thấy wiki",
+	"notfound": "Không tìm thấy",
+	"gateway-timeout": "Hết thời gian chờ",
+	"504-gateway-timeout": "504 Hết thời gian chờ",
+	"page-not-found": "Không tìm thấy trang",
+	"page-not-found-alternatively": "Hãy thử truy cập [/|Trang chính] hoặc đọc [https://en.wikipedia.org/wiki/HTTP_404|thêm thông tin] về loại lỗi này.",
+	"page-not-found-mainpage": "Đi tới Trang chính",
+	"page-not-found-learnmore": "Tìm hiểu thêm",
+	"page-not-found-more": "Chúng tôi không thể tìm thấy trang này. Hãy kiểm tra chính tả và thử lại hoặc nhấp vào liên kết ở trên.",
+	"tryagainlater": "Vui lòng thử lại sau.",
+	"wiki-directory": "Danh mục",
+	"wiki-not-found": "Chúng tôi không thể tìm thấy wiki này. Kiểm tra chính tả của bạn và thử lại.",
+	"wiki-not-found-archiveorg": "Tìm trên Archive.org",
+	"wiki-not-found-bureaucrat": "Nếu bạn là hành chính viên của wiki:",
+	"wiki-not-found-browse": "Wiki này không tồn tại trên máy chủ của chúng tôi. Bạn có thể duyệt wiki trên mạng của chúng tôi [https://meta.miraheze.org/wiki/special:WikiDiscover|tại đây] hoặc [https://archive.org/search.php?query=miraheze|tìm bản lưu trên Archive.org] .",
+	"wiki-not-found-contact": "Nếu đây là sự cố, vui lòng [https://meta.miraheze.org/wiki/special:MyLanguage/Help_center|liên hệ với chúng tôi].",
+	"wiki-not-found-goback": "Trang trước",
+	"wiki-not-found-learnmore": "Tìm hiểu thêm tại Miraheze Meta",
+	"wiki-not-found-meta": "Truy cập Miraheze Meta",
+	"wiki-not-found-more": "Tôi có thể làm gì?",
+	"wiki-not-found-startwiki": "Tạo wiki này",
+	"wiki-not-found-visitor": "Nếu bạn là khách truy cập wiki:"
+}

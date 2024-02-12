@@ -8,8 +8,8 @@
 		]
 	},
 	"database-maintenance": "Wiki 正進行維護",
-	"wiki-scheduled-database-maintenance": "此 wiki 所處的資料庫伺服器目前正在進行預期時程的維護。請稍後再試。",
-	"wiki-unscheduled-database-maintenance": "此 wiki 所處的資料庫伺服器目前正在進行非預期時程的維護。請稍後再試。",
+	"wiki-scheduled-database-maintenance": "Miraheze 正在進行此 wiki 資料庫伺服器的定期維護。請稍後再試。",
+	"wiki-unscheduled-database-maintenance": "Miraheze 正在進行此 wiki 資料庫伺服器的排程外維護。請稍後再試。",
 	"database-maintenance-join-discord": "請加入 Miraheze 的 Discord 伺服器以了解更多資訊",
 	"did-you-mean": "您是不是指：",
 	"deletedwiki": "Wiki 已刪除",
