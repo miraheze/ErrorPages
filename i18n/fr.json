@@ -3,14 +3,17 @@
 		"authors": [
 			"DavidL",
 			"Gomoko",
+			"Melimeli",
 			"Verdy p"
 		]
 	},
 	"database-maintenance": "Wiki en cours de maintenance",
-	"wiki-scheduled-database-maintenance": "Ce wiki se trouve sur un serveur de base de données qui fait actuellement l’objet d’une maintenance planifiée. Veuillez réessayer ultérieurement.",
-	"wiki-unscheduled-database-maintenance": "Ce wiki utilise un serveur de base de données qui fait actuellement l’objet d’une maintenance planifiée. Veuillez réessayer ultérieurement.",
+	"wiki-scheduled-database-maintenance": "Miraheze effectue une maintenance planifiée sur le serveur de base de données de ce wiki. Veuillez réessayer plus tard.",
+	"wiki-unscheduled-database-maintenance": "Miraheze effectue une maintenance imprévue sur le serveur de base de données de ce wiki. Veuillez réessayer plus tard.",
 	"database-maintenance-join-discord": "Rejoignez le serveur Discord de Miraheze pour plus d’informations.",
 	"did-you-mean": "Voulez-vous dire :",
+	"deletedwiki": "Wiki supprimé",
+	"deletedwiki-body": "Ce wiki a été supprimé soit sur demande, pour inactivité ou en raison de violations de politique.",
 	"missingwiki": "Wiki non trouvé",
 	"notfound": "Non trouvé",
 	"gateway-timeout": "Délai de passerelle dépassé",
@@ -21,14 +24,16 @@
 	"page-not-found-learnmore": "En savoir plus",
 	"page-not-found-more": "Nous n’avons pas pu trouver cette page. Vérifiez l’orthographe et essayez à nouveau, ou bien cliquez sur le lien ci-dessus.",
 	"tryagainlater": "Réessayez ultérieurement.",
+	"wiki-directory": "répertoire",
 	"wiki-not-found": "Nous n’avons pas pu trouver ce wiki. Vérifiez l’orthographe et essayez à nouveau.",
 	"wiki-not-found-archiveorg": "Rechercher sur Archive.org",
 	"wiki-not-found-bureaucrat": "Si vous êtes un bureaucrate administrant ce wiki :",
 	"wiki-not-found-browse": "Ce wiki n’existe pas sur nos serveurs. Vous pouvez parcourir les wikis présents [https://meta.miraheze.org/wiki/Special:WikiDiscover| sur notre réseau] ou [https://archive.org/search.php?query=miraheze| dans nos archives].",
 	"wiki-not-found-contact": "Pour tout problème, veuillez [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|nous contacter].",
-	"wiki-not-found-goback": "Retourner à la page précédente",
+	"wiki-not-found-goback": "page précédente",
 	"wiki-not-found-learnmore": "En savoir plus sur Miraheze Méta",
 	"wiki-not-found-meta": "Aller à Miraheze Méta",
 	"wiki-not-found-more": "Que puis-je faire ?",
+	"wiki-not-found-startwiki": "Démarrer ce wiki",
 	"wiki-not-found-visitor": "Si vous êtes un visiteur du wiki :"
 }

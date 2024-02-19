@@ -3,14 +3,17 @@
 		"authors": [
 			"BerryAVGN",
 			"Kareyac",
-			"Okras"
+			"Okras",
+			"WerySkok"
 		]
 	},
 	"database-maintenance": "Вики на техобслуживании",
-	"wiki-scheduled-database-maintenance": "Эта вики находится на сервере баз данных, который в настоящее время проходит плановое обслуживание. Пожалуйста, повторите попытку позже.",
-	"wiki-unscheduled-database-maintenance": "Эта вики находится на сервере баз данных, который в настоящее время находится на внеплановом обслуживании. Пожалуйста, повторите попытку позже.",
+	"wiki-scheduled-database-maintenance": "Miraheze проводит плановое обслуживание сервера базы данных этой вики. Пожалуйста, повторите попытку позже.",
+	"wiki-unscheduled-database-maintenance": "Miraheze проводит внеплановое обслуживание сервера базы данных этой вики. Пожалуйста, повторите попытку позже.",
 	"database-maintenance-join-discord": "Присоединяйтесь к Discord-серверу Miraheze для получения дополнительной информации",
 	"did-you-mean": "Вы имели ввиду:",
+	"deletedwiki": "Вики удалена",
+	"deletedwiki-body": "Эта вики была удалена по запросу, из-за неактивности или из-за нарушений политик.",
 	"missingwiki": "Вики не найдена",
 	"notfound": "Не найдено",
 	"gateway-timeout": "Сервер не отвечает",
@@ -21,14 +24,16 @@
 	"page-not-found-learnmore": "Узнать больше",
 	"page-not-found-more": "Мы не смогли найти эту страницу. Проверьте правильность написания и повторите попытку или нажмите на ссылку выше.",
 	"tryagainlater": "Попробуйте позже.",
+	"wiki-directory": "Каталог",
 	"wiki-not-found": "Мы не смогли найти эту вики. Проверьте правильность написания и повторите попытку.",
 	"wiki-not-found-archiveorg": "Поиск на Archive.org",
 	"wiki-not-found-bureaucrat": "Если вы вики-бюрократ:",
 	"wiki-not-found-browse": "Эта вики не существует на наших серверах. Вы можете просмотреть вики в нашей сети [https://meta.miraheze.org/wiki/Special:WikiDiscover|здесь] или [https://archive.org/search.php?query=miraheze|просмотреть архив на archive.org].",
 	"wiki-not-found-contact": "Если это проблема, пожалуйста, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center/ru|свяжитесь с нами].",
-	"wiki-not-found-goback": "Вернуться на предыдущую страницу",
+	"wiki-not-found-goback": "Предыдущая страница",
 	"wiki-not-found-learnmore": "Узнайте больше о Miraheze Meta",
 	"wiki-not-found-meta": "Перейти на Miraheze Meta",
 	"wiki-not-found-more": "Что я могу сделать?",
+	"wiki-not-found-startwiki": "Создать эту вики",
 	"wiki-not-found-visitor": "Если вы посетитель вики:"
 }
