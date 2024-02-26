@@ -53,8 +53,8 @@ if ( !$wgCommandLineMode ) {
 	echo $output;
 
 	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-		$cwj = new CreateWikiJson( $wgDBname );
-		$cwj->update();
+		$cWJ = new CreateWikiJson( $wgDBname );
+		$cWJ->update();
 	}
 
 	die( 1 );
