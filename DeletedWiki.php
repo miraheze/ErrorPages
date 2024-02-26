@@ -1,5 +1,9 @@
 <?php
 
+use Miraheze\CreateWiki\CreateWikiJson;
+
+global $wgCommandLineMode, $wgDBname, $wgLocalDatabases;
+
 if ( !$wgCommandLineMode ) {
 	require_once __DIR__ . '/getTranslations.php';
 
@@ -47,6 +51,12 @@ if ( !$wgCommandLineMode ) {
 	EOF;
 	header( 'Content-length: ' . strlen( $output ) );
 	echo $output;
+
+	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
+		$cWJ = new CreateWikiJson( $wgDBname );
+		$cWJ->update();
+	}
+
 	die( 1 );
 } else {
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
