@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
 use Miraheze\CreateWiki\CreateWikiJson;
 
 global $wgCommandLineMode, $wgDBname, $wgLocalDatabases;
@@ -53,7 +54,9 @@ if ( !$wgCommandLineMode ) {
 	echo $output;
 
 	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-		$cWJ = new CreateWikiJson( $wgDBname );
+		MediaWikiServices::allowGlobalInstance();
+		$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
+		$cWJ = new CreateWikiJson( $wgDBname, $createWikiHookRunner );
 		$cWJ->update();
 	}
 
