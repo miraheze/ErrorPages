@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"HanV",
 			"Mainframe98",
 			"McDutchie",
 			"Mitsjol"
@@ -27,7 +28,7 @@
 	"wiki-not-found-bureaucrat": "Als u de wiki-bureaucraat bent:",
 	"wiki-not-found-browse": "Deze wiki bestaat niet op onze servers. U kunt [https://meta.miraheze.org/wiki/Special:WikiDiscover|hier] bladeren door wiki's op ons netwerk of [https://archive.org/search.php?query=miraheze|archive.org-archieven bekijken].",
 	"wiki-not-found-contact": "Als dit een probleem is, neem dan [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|contact met ons op].",
-	"wiki-not-found-goback": "Terug naar de vorige pagina",
+	"wiki-not-found-goback": "Vorige pagina",
 	"wiki-not-found-learnmore": "Meer lezen op Miraheze Meta",
 	"wiki-not-found-meta": "Naar Miraheze Meta gaan",
 	"wiki-not-found-more": "Wat kan ik doen?",
