@@ -4,12 +4,13 @@
 			"HanV",
 			"Mainframe98",
 			"McDutchie",
-			"Mitsjol"
+			"Mitsjol",
+			"Siebrand"
 		]
 	},
 	"database-maintenance": "Wiki ondergaat onderhoud",
-	"wiki-scheduled-database-maintenance": "Deze wiki staat op een databaseserver die momenteel gepland onderhoud ondergaat. Probeer het later opnieuw.",
-	"wiki-unscheduled-database-maintenance": "Deze wiki staat op een databaseserver die momenteel ongepland onderhoud ondergaat. Probeer het later opnieuw.",
+	"wiki-scheduled-database-maintenance": "Miraheze voert gepland onderhoud uit op de databaseserver van deze wiki. Probeer het later opnieuw.",
+	"wiki-unscheduled-database-maintenance": "Miraheze voert ongepland onderhoud uit op de databaseserver van deze wiki. Probeer het later opnieuw.",
 	"database-maintenance-join-discord": "Word lid van de Miraheze Discord-server voor meer informatie",
 	"did-you-mean": "Bedoelde u:",
 	"deletedwiki": "Wiki verwijderd",

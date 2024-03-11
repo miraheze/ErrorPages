@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Buehl",
+			"Chqaz",
 			"LaMagiaaa",
 			"M1660661",
 			"MagicAho",
@@ -16,6 +17,8 @@
 	"wiki-unscheduled-database-maintenance": "このウィキを置いたデータベース・サーバーは、現在、予定外のメンテナンス中です。後でもう一度試してください。",
 	"database-maintenance-join-discord": "詳細についてはMirahezeのDiscordサーバーに参加してください",
 	"did-you-mean": "あなたは以下のことを意味していますか:",
+	"deletedwiki": "削除されたウィキ",
+	"deletedwiki-body": "このウィキは、リクエスト、非活動、または方針違反により削除されました。",
 	"missingwiki": "ウィキが見つかりませんでした",
 	"notfound": "見つかりません",
 	"gateway-timeout": "ゲートウェイタイムアウト",
@@ -26,14 +29,16 @@
 	"page-not-found-learnmore": "もっと詳しく",
 	"page-not-found-more": "このページは見つかりませんでした。スペルを確認して再試行するか、上のリンクをクリックしてください。",
 	"tryagainlater": "数分後にまたお試しください。",
+	"wiki-directory": "ディレクトリ",
 	"wiki-not-found": "ウィキを見つけることができませんでした。もう一度お試しください。",
 	"wiki-not-found-archiveorg": "Archive.org で検索",
 	"wiki-not-found-bureaucrat": "あなたがウィキのビューロクラットの場合",
 	"wiki-not-found-browse": "このウィキはサーバーに存在しません。[https://meta.miraheze.org/wiki/Special:WikiDiscover|こちらの]当社のネットワークでウィキを閲覧、または[https://archive.org/search.php?query=miraheze|archive.orgのアーカイブを表示]できます。",
 	"wiki-not-found-contact": "これに問題がある場合は、[https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|お問い合わせ] までご連絡ください。",
-	"wiki-not-found-goback": "前のページに戻る",
+	"wiki-not-found-goback": "前のページ",
 	"wiki-not-found-learnmore": "Miraheze Metaの詳細",
 	"wiki-not-found-meta": "Miraheze Metaに行く",
 	"wiki-not-found-more": "何ができますか",
+	"wiki-not-found-startwiki": "このウィキを始める",
 	"wiki-not-found-visitor": "もしウィキの訪問者なら"
 }
