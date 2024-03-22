@@ -11,6 +11,8 @@ if ( !$wgCommandLineMode ) {
 	$getLanguageCode = 'getLanguageCode';
 	$getTranslation = 'getTranslation';
 
+	header( 'Cache-control: no-cache' );
+
 	http_response_code( 410 );
 
 	$output = <<<EOF
