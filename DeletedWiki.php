@@ -3,9 +3,9 @@
 use MediaWiki\MediaWikiServices;
 use Miraheze\CreateWiki\CreateWikiJson;
 
-global $wgCommandLineMode, $wgDBname, $wgLocalDatabases;
+global $wgDBname, $wgLocalDatabases;
 
-if ( !$wgCommandLineMode ) {
+if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
 
 	$getLanguageCode = 'getLanguageCode';
