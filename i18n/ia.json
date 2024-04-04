@@ -9,6 +9,8 @@
 	"wiki-unscheduled-database-maintenance": "Miraheze conduce in iste momento un mantenentia non planificate sur le servitor de base de datos de iste wiki. Per favor reessaya plus tarde.",
 	"database-maintenance-join-discord": "Entra in le servitor Discord de Miraheze pro plus information",
 	"did-you-mean": "Vole tu dicer:",
+	"deletedwiki": "Wiki delite",
+	"deletedwiki-body": "Iste wiki ha essite delite per requesta o per causa de inactivitate o de violationes del politica.",
 	"missingwiki": "Wiki non trovate",
 	"notfound": "Non trovate",
 	"gateway-timeout": "Tempore limite del passarella excedite",
@@ -19,6 +21,7 @@
 	"page-not-found-learnmore": "Leger plus",
 	"page-not-found-more": "Impossibile trovar iste pagina. Verifica tu orthographia e tenta lo de novo o clicca sur le ligamine hic supra.",
 	"tryagainlater": "Tenta lo de novo plus tarde.",
+	"wiki-directory": "Catalogo",
 	"wiki-not-found": "Nos non ha potite trovar iste wiki. Verifica tu orthographai e tenta lo de novo.",
 	"wiki-not-found-archiveorg": "Cercar sur Archive.org",
 	"wiki-not-found-bureaucrat": "Si tu es le bureaucrate del wiki:",
@@ -28,5 +31,6 @@
 	"wiki-not-found-learnmore": "Leger plus sur Miraheze Meta",
 	"wiki-not-found-meta": "Ir a Miraheze Meta",
 	"wiki-not-found-more": "Que pote io facer?",
+	"wiki-not-found-startwiki": "Comenciar iste wiki",
 	"wiki-not-found-visitor": "Si tu es un visitator del wiki:"
 }
