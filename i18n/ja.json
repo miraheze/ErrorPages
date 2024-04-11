@@ -9,12 +9,13 @@
 			"MathXplore",
 			"Mugenpman",
 			"Omotecho",
+			"Waki285",
 			"背番号4のエース"
 		]
 	},
-	"database-maintenance": "メンテナンス中のWiki",
-	"wiki-scheduled-database-maintenance": "このウィキを置いたデータベース・サーバーは、現在、予定外のメンテナンス中です。後でもう一度試してください。",
-	"wiki-unscheduled-database-maintenance": "このウィキを置いたデータベース・サーバーは、現在、予定外のメンテナンス中です。後でもう一度試してください。",
+	"database-maintenance": "メンテナンス中のウィキ",
+	"wiki-scheduled-database-maintenance": "Mirahezeはこのウィキのデータベースサーバーの定期メンテナンスを行っています。後でもう一度お試しください。",
+	"wiki-unscheduled-database-maintenance": "Mirahezeはこのウィキのデータベースサーバーで予定外のメンテナンスを行っています。後でもう一度お試しください。",
 	"database-maintenance-join-discord": "詳細についてはMirahezeのDiscordサーバーに参加してください",
 	"did-you-mean": "あなたは以下のことを意味していますか:",
 	"deletedwiki": "削除されたウィキ",
