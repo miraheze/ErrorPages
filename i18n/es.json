@@ -2,19 +2,32 @@
 	"@metadata": {
 		"authors": [
 			"Agent",
+			"EmicraftNoob",
 			"No se",
 			"OriginReboot"
 		]
 	},
 	"database-maintenance": "Wiki en mantenimiento",
-	"wiki-scheduled-database-maintenance": "Este wiki se encuentra en un servidor de base de datos que actualmente se encuentra en mantenimiento. Por favor, inténtelo de nuevo más tarde.",
+	"wiki-scheduled-database-maintenance": "Miraheze esta realizando un mantenimiento programado en el servidor de la base de datos de esta wiki. Por favor, inténtelo de nuevo más tarde",
 	"wiki-unscheduled-database-maintenance": "Este wiki se encuentra en un servidor de base de datos que actualmente se encuentra en mantenimiento no programado. Por favor, inténtelo de nuevo más tarde.",
 	"database-maintenance-join-discord": "Únase al servidor de Discord de Miraheze para obtener más información.",
-	"did-you-mean": "¿Quiso decir $1?",
+	"did-you-mean": "Quizás quiso decir: $1",
 	"deletedwiki": "Wiki eliminada",
 	"deletedwiki-body": "Esta wiki ha sido eliminado por solicitud, por inactividad o debido a violaciones de políticas.",
+	"missingwiki": "Wiki no encontrada",
 	"notfound": "No encontrado",
+	"page-not-found": "Página no encontrada",
+	"page-not-found-mainpage": "Ir a la página principal",
 	"page-not-found-learnmore": "Aprenda más",
+	"tryagainlater": "Intenta mas tarde.",
+	"wiki-directory": "Directorio",
+	"wiki-not-found": "No pudimos encontrar esta wiki. Revise su ortografía y vuelva a intentarlo.",
+	"wiki-not-found-archiveorg": "Buscar en Archive.org",
+	"wiki-not-found-bureaucrat": "Si eres el burócrata de la wiki:",
+	"wiki-not-found-goback": "Página anterior",
+	"wiki-not-found-learnmore": "Conozca más sobre Miraheze Meta",
+	"wiki-not-found-meta": "Ir a Miraheze Meta",
 	"wiki-not-found-more": "¿Qué puedo hacer?",
-	"wiki-not-found-startwiki": "Iniciar esta wiki"
+	"wiki-not-found-startwiki": "Iniciar esta wiki",
+	"wiki-not-found-visitor": "Si eres un visitante de la wiki:"
 }
