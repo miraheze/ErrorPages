@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gichi",
 			"Justman10000",
 			"Nekky-chan",
 			"ThisCarthing"
@@ -11,6 +12,8 @@
 	"wiki-unscheduled-database-maintenance": "Dieses Wiki befindet sich auf einem Datenbankserver, der derzeit außerplanmäßig gewartet wird. Bitte versuche es später noch einmal.",
 	"database-maintenance-join-discord": "Tritt dem Miraheze Discord Server für weitere Informationen bei",
 	"did-you-mean": "Meintest du:",
+	"deletedwiki": "Das Wiki wurde gelöscht",
+	"deletedwiki-body": "Dieses Wiki wurde entweder auf Anfrage, aufgrund von Inaktivität oder wegen eines Verstoßes gegen die Richtlinien gelöscht.",
 	"missingwiki": "Wiki nicht gefunden",
 	"notfound": "Nicht gefunden",
 	"gateway-timeout": "Gateway Zeitüberschreitung",
@@ -21,6 +24,7 @@
 	"page-not-found-learnmore": "Mehr erfahren",
 	"page-not-found-more": "Wir konnten diese Seite nicht finden.  Überprüfe deine Rechtschreibung und versuche es erneut oder klicke auf den Link oben.",
 	"tryagainlater": "Versuche es später noch einmal.",
+	"wiki-directory": "Verzeichnis",
 	"wiki-not-found": "Wir konnten dieses Wiki nicht finden. Überprüfe deine Rechtschreibung und versuche es erneut.",
 	"wiki-not-found-archiveorg": "Suche auf Archive.org",
 	"wiki-not-found-bureaucrat": "Wenn du der Wiki-Bürokrat bist:",
