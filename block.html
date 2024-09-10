@@ -50,10 +50,11 @@
             /* CloudFlare CSS */
             .cf-error-details h1 {
                 font-size: 2em;
+                font-weight: 1000;
             }
 
             .cf-error-details p {
-                font-size: 1.25em
+                font-size: 1em
             }
 
             .cf-error-details ul {
@@ -62,6 +63,21 @@
 
             .cf-error-details li {
                 display: inline-block;
+            }
+
+            .cferror_details {
+                font-size: 0.75em;
+                position: fixed;
+                left: 0px;
+                bottom: 125px;
+                height: 30px;
+                width: 100%;
+            }
+
+            .cferror_details::before {
+                content:"When reporting this, please include the information below:\a";
+                white-space: pre;
+                font-size: 1.5em !important;
             }
             /* Dark mode */
             @media (prefers-color-scheme: dark) {
@@ -75,6 +91,7 @@
                 font-family: 'Outfit', sans-serif;
             }
         </style>
+
 	</head>
 	<div class="container" style="padding: 70px 0; text-align: center;">
 		<!-- Jumbotron -->
@@ -85,13 +102,12 @@
 				</p>
 			</a>
 			<h1><b>Something went wrong</b></h1>
-			<p class="lead">If this keeps happening, <a href="https://static-help.miraheze.org/docs/errors/500">let us know</a>.</p>
-			<a href="javascript:document.location.reload(true);" class="btn btn-outline-primary" role="button">Try this action again</a>
+			<p class="lead">You are restricted from accessing Miraheze. This may be for a variety of reasons including abuse or automated triggers.</p>
 		</div>
-		<div class="footer" style="position: fixed; left:0px; bottom: 125px; height:50px; width:100%;">
+		<div class="footer" style="position: fixed; left:0px; bottom: 125px; height:30px; width:100%;">
 			<div class="text-center">
 				<p class="lead">When reporting this, please include the information below:</p>
-				::CLOUDFLARE_ERROR_500S_BOX::
+				<p>Your IP is ::CLIENT_IP:: and request ID is ::RAY_ID::</p>
 				<br /><br />
 			</div>
 		</div>

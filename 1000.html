@@ -47,6 +47,38 @@
                 text-align: center;
                 width: 600px;
             }
+            /* CloudFlare CSS */
+            .cf-error-details h1 {
+                font-size: 2em;
+                font-weight: 1000;
+            }
+
+            .cf-error-details p {
+                font-size: 1em
+            }
+
+            .cf-error-details ul {
+                list-style: none;
+            }
+
+            .cf-error-details li {
+                display: inline-block;
+            }
+
+            .cferror_details {
+                font-size: 0.75em;
+                position: fixed;
+                left: 0px;
+                bottom: 125px;
+                height: 30px;
+                width: 100%;
+            }
+
+            .cferror_details::before {
+                content:"When reporting this, please include the information below:\a";
+                white-space: pre;
+                font-size: 1.5em !important;
+            }
             /* Dark mode */
             @media (prefers-color-scheme: dark) {
                 body {
