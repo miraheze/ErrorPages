@@ -49,7 +49,10 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	EOF;
 	header( 'Content-length: ' . strlen( $output ) );
 	echo $output;
-	die( 1 );
+	
+	if ( file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
+		die( 1 );
+	}
 } else {
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
 	echo "The wiki database '{$wgDBname}' was not found." . PHP_EOL;
