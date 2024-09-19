@@ -1,9 +1,7 @@
 <?php
 
-$expectedSuffix = php_uname( 'n' ) === 'test151' ? 'wikibeta' : 'wiki';
-
 if ( MW_ENTRY_POINT !== 'cli' ) {
-	if ( file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
+	if ( true || file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
 		require_once __DIR__ . '/getTranslations.php';
 
 		$requestWikiUrl = 'https://meta.miraheze.org/wiki/Special:RequestWiki?wpsubdomain=' . $wgDBname;
@@ -51,17 +49,12 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 		EOF;
 		header( 'Content-length: ' . strlen( $output ) );
 		echo $output;
-		die( 1 );
-	}
-
-	if ( !str_ends_with( $wgDBname, $expectedSuffix ) ) {
-		die( 1 );
+		
+		if ( file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
+			die( 1 );
+		}
 	}
 } else {
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
 	echo "The wiki database '{$wgDBname}' was not found." . PHP_EOL;
-
-	if ( !str_ends_with( $wgDBname, $expectedSuffix ) ) {
-		die( 1 );
-	}
 }
