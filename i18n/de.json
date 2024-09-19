@@ -9,8 +9,8 @@
 		]
 	},
 	"database-maintenance": "Wiki wird gewartet",
-	"wiki-scheduled-database-maintenance": "Dieses Wiki befindet sich auf einem Datenbankserver, der gerade gewartet wird. Bitte versuche es später noch einmal.",
-	"wiki-unscheduled-database-maintenance": "Dieses Wiki befindet sich auf einem Datenbankserver, der derzeit außerplanmäßig gewartet wird. Bitte versuche es später noch einmal.",
+	"wiki-scheduled-database-maintenance": "Miraheze führt planmäßige Wartungsarbeiten am Datenbankserver dieses Wikis durch. Bitte versuche es später noch einmal.",
+	"wiki-unscheduled-database-maintenance": "Miraheze führt eine außerplanmäßige Wartung des Datenbankservers dieses Wikis durch. Bitte versuche es später noch einmal.",
 	"database-maintenance-join-discord": "Tritt dem Miraheze Discord Server für weitere Informationen bei",
 	"did-you-mean": "Meintest du:",
 	"deletedwiki": "Das Wiki wurde gelöscht",
@@ -35,5 +35,6 @@
 	"wiki-not-found-learnmore": "Erfahre mehr über Miraheze Meta",
 	"wiki-not-found-meta": "Zu Miraheze Meta gehen",
 	"wiki-not-found-more": "Was kann ich tun?",
+	"wiki-not-found-startwiki": "Dieses Wiki starten",
 	"wiki-not-found-visitor": "Wenn du ein Wikibesucher bist:"
 }
