@@ -1,6 +1,9 @@
 <?php
 
-global $wgDBname, $wgCreateWikiUsePhpCache;
+use MediaWiki\MediaWikiServices;
+use Miraheze\CreateWiki\CreateWikiPhp;
+
+global $wgDBname, $wgLocalDatabases, $wgCreateWikiUsePhpCache;
 
 if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
@@ -53,6 +56,15 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	echo $output;
 
 	if ( $wgCreateWikiUsePhpCache ) {
+		try {
+			MediaWikiServices::allowGlobalInstance();
+			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
+			$cWP = new CreateWikiPhp( $wgDBname, $createWikiHookRunner );
+			$cWP->update();
+		} catch ( Throwable $ex ) {
+			// Do nothing
+		}
+
 		if ( file_exists( '/srv/mediawiki/cache/databases.php' ) ) {
 			die( 1 );
 		}
