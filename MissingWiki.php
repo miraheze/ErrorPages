@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use Miraheze\CreateWiki\CreateWikiJson;
 use Miraheze\CreateWiki\CreateWikiPhp;
 
 global $wgDBname, $wgCreateWikiUsePhpCache;
@@ -69,6 +70,15 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 			die( 1 );
 		}
 	} else {
+		try {
+			MediaWikiServices::allowGlobalInstance();
+			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
+			$cWJ = new CreateWikiJson( $wgDBname, $createWikiHookRunner );
+			$cWJ->update();
+		} catch ( Throwable $ex ) {
+			// Do nothing
+		}
+
 		if ( file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
 			die( 1 );
 		}
