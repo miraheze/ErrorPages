@@ -2,8 +2,9 @@
 
 use MediaWiki\MediaWikiServices;
 use Miraheze\CreateWiki\CreateWikiJson;
+use Miraheze\CreateWiki\CreateWikiPhp;
 
-global $wgDBname, $wgLocalDatabases;
+global $wgDBname, $wgLocalDatabases, $wgCreateWikiUsePhpCache;
 
 if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
@@ -55,11 +56,20 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	header( 'Content-length: ' . strlen( $output ) );
 	echo $output;
 
-	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-		MediaWikiServices::allowGlobalInstance();
-		$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
-		$cWJ = new CreateWikiJson( $wgDBname, $createWikiHookRunner );
-		$cWJ->update();
+	if ( $wgCreateWikiUsePhpCache ) {
+		if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
+			MediaWikiServices::allowGlobalInstance();
+			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
+			$cWP = new CreateWikiPhp( $wgDBname, $createWikiHookRunner );
+			$cWP->update();
+		}
+	} else {
+		if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
+			MediaWikiServices::allowGlobalInstance();
+			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
+			$cWJ = new CreateWikiJson( $wgDBname, $createWikiHookRunner );
+			$cWJ->update();
+		}
 	}
 
 	die( 1 );
