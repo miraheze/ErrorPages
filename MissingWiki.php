@@ -54,7 +54,7 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 
 	if ( $wgCreateWikiUsePhpCache ) {
 		if ( file_exists( '/srv/mediawiki/cache/databases.php' ) ) {
-			die( 1 );
+			// die( 1 );
 		}
 	} else {
 		if ( file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
