@@ -1,10 +1,9 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
-use Miraheze\CreateWiki\CreateWikiJson;
 use Miraheze\CreateWiki\CreateWikiPhp;
 
-global $wgDBname, $wgCreateWikiUsePhpCache;
+global $wgDBname;
 
 if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
@@ -17,7 +16,6 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	http_response_code( 404 );
 
 	$output = <<<EOF
-
 		<!DOCTYPE html>
 		<html lang="en">
 			<head>
@@ -56,33 +54,16 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	header( 'Content-length: ' . strlen( $output ) );
 	echo $output;
 
-	if ( $wgCreateWikiUsePhpCache ) {
-		try {
-			MediaWikiServices::allowGlobalInstance();
-			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
-			$cWP = new CreateWikiPhp( $wgDBname, $createWikiHookRunner );
-			$cWP->update();
-		} catch ( Throwable $ex ) {
-			// Do nothing
-		}
-
-		if ( file_exists( '/srv/mediawiki/cache/databases.php' ) ) {
-			die( 1 );
-		}
-	} else {
-		try {
-			MediaWikiServices::allowGlobalInstance();
-			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
-			$cWJ = new CreateWikiJson( $wgDBname, $createWikiHookRunner );
-			$cWJ->update();
-		} catch ( Throwable $ex ) {
-			// Do nothing
-		}
-
-		if ( file_exists( '/srv/mediawiki/cache/databases.json' ) ) {
-			die( 1 );
-		}
+	try {
+		MediaWikiServices::allowGlobalInstance();
+		$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
+		$cWP = new CreateWikiPhp( $wgDBname, $createWikiHookRunner );
+		$cWP->update();
+	} catch ( Throwable $ex ) {
+		// Do nothing
 	}
+
+	die( 1 );
 } else {
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
 	echo "The wiki database '{$wgDBname}' was not found." . PHP_EOL;
