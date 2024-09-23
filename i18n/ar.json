@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Asma",
+			"Mohammed Qays",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
@@ -10,5 +11,6 @@
 	"notfound": "غير موجود",
 	"page-not-found": "الصفحة غير موجودة",
 	"page-not-found-mainpage": "اذهب إلى الصفحة الرئيسية",
+	"page-not-found-learnmore": "معرفة المزيد",
 	"wiki-not-found-more": "ماذا يمكنني أن أفعل؟"
 }
