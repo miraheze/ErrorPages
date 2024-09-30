@@ -6,7 +6,12 @@ use Miraheze\CreateWiki\CreateWikiPhp;
 
 global $wgDBname, $wgCreateWikiUsePhpCache;
 
-if ( MW_ENTRY_POINT !== 'cli' || !defined( 'MEDIAWIKI_JOB_RUNNER' ) ) {
+if ( defined( 'MEDIAWIKI_JOB_RUNNER' ) && isset( $wgLocalDatabases ) && in_array( $wgDBname, $wgLocalDatabases ) ) {
+	// If job is ran through the UI then don't show a missing wiki error.
+	return;
+}
+
+if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
 
 	$requestWikiUrl = 'https://meta.miraheze.org/wiki/Special:RequestWiki?wpsubdomain=' . $wgDBname;
