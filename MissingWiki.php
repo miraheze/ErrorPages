@@ -1,8 +1,6 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
-use Miraheze\CreateWiki\CreateWikiJson;
-use Miraheze\CreateWiki\CreateWikiPhp;
 
 global $wgDBname;
 
