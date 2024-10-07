@@ -1,10 +1,8 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
-use Miraheze\CreateWiki\CreateWikiJson;
-use Miraheze\CreateWiki\CreateWikiPhp;
 
-global $wgDBname, $wgLocalDatabases, $wgCreateWikiUsePhpCache;
+global $wgDBname, $wgLocalDatabases;
 
 if ( defined( 'MEDIAWIKI_JOB_RUNNER' ) && in_array( $wgDBname, $wgLocalDatabases ?? [] ) ) {
  	// If job is ran through the UI then don't show a missing wiki error.
@@ -61,20 +59,11 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	header( 'Content-length: ' . strlen( $output ) );
 	echo $output;
 
-	if ( $wgCreateWikiUsePhpCache ) {
-		if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-			MediaWikiServices::allowGlobalInstance();
-			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
-			$cWP = new CreateWikiPhp( $wgDBname, $createWikiHookRunner );
-			$cWP->update();
-		}
-	} else {
-		if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-			MediaWikiServices::allowGlobalInstance();
-			$createWikiHookRunner = MediaWikiServices::getInstance()->get( 'CreateWikiHookRunner' );
-			$cWJ = new CreateWikiJson( $wgDBname, $createWikiHookRunner );
-			$cWJ->update();
-		}
+	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
+		MediaWikiServices::allowGlobalInstance();
+		$dataFactory = MediaWikiServices::getInstance()->get( 'CreateWikiDataFactory' );
+		$data = $dataFactory->newInstance( $wgDBname );
+		$data->syncCache();
 	}
 
 	die( 1 );
