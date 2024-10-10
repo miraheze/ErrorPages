@@ -24,7 +24,7 @@ $output = <<<EOF
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 			<!-- Outfit font from Google Fonts -->
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit">
-			<link href="/ErrorPages/assets/main.css" rel="stylesheet">
+			<link href="/assets/main.css" rel="stylesheet">
 		</head>
 		<div class="container" style="padding: 70px 0; text-align: center;">
 			<!-- Jumbotron -->
