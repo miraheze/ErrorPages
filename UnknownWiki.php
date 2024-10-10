@@ -1,10 +1,5 @@
 <?php
 
-if ( defined( 'MEDIAWIKI_JOB_RUNNER' ) {
- 	// If job is ran through the UI then don't show a missing wiki error.
- 	return;
- }
-
 if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
 
