@@ -34,7 +34,7 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 			<div class="container" style="padding: 70px 0; text-align: center;">
 				<!-- Jumbotron -->
 				<div class="jumbotron">
-					<p style="font-align: center; animation: fadein 1s;">
+					<p style="text-align: center; animation: fadein 1s;">
 						<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 							<svg
 							id="svg4206"

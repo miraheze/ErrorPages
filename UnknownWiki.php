@@ -24,12 +24,12 @@ $output = <<<EOF
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 			<!-- Outfit font from Google Fonts -->
 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit">
-			<link href="/assets/main.css" rel="stylesheet">
+			<link href="assets/main.css" rel="stylesheet">
 		</head>
 		<div class="container" style="padding: 70px 0; text-align: center;">
 			<!-- Jumbotron -->
 			<div class="jumbotron">
-				<p style="font-align: center; animation: fadein 1s;">
+				<p style="text-align: center; animation: fadein 1s;">
 					<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 						<svg
 						id="svg4206"
@@ -140,6 +140,7 @@ $output = <<<EOF
 				<p class="lead">{$getTranslation( 'unknownwiki-body' )}</p>
 				<p>
 					<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'get-help' )}</a>
+					<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains" class="btn btn-lg btn-outline-info" role="button">{$getTranslation( 'custom-domain-instructions' )}</a>
 				</p>
 			</div>
 		</div>
