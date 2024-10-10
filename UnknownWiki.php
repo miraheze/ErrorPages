@@ -1,10 +1,6 @@
 <?php
 
-use MediaWiki\MediaWikiServices;
-
-global $wgDBname, $wgLocalDatabases;
-
-if ( defined( 'MEDIAWIKI_JOB_RUNNER' ) && in_array( $wgDBname, $wgLocalDatabases ?? [] ) ) {
+if ( defined( 'MEDIAWIKI_JOB_RUNNER' ) {
  	// If job is ran through the UI then don't show a missing wiki error.
  	return;
  }
@@ -26,8 +22,8 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 			<head>
 				<meta charset="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta name="description" content="{$getTranslation( 'deletedwiki' )}" />
-				<title>{$getTranslation( 'deletedwiki' )}</title>
+				<meta name="description" content="{$getTranslation( 'unknownwiki-body' )}" />
+				<title>{$getTranslation( 'unknownwiki' )}</title>
 				<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
 				<link rel="apple-touch-icon" href="https://meta.miraheze.org/apple-touch-icon.png" />
 				<!-- Bootstrap core CSS -->
@@ -47,7 +43,7 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 							width="130.851"
 							height="134.98416"
 							viewBox="0 0 130.851 134.98416"
-							sodipodi:docname="mhtrash.svg"
+							sodipodi:docname="mhquestion.svg"
 							xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
 							xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
 							xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +51,7 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 							xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 							xmlns:cc="http://creativecommons.org/ns#"
 							xmlns:dc="http://purl.org/dc/elements/1.1/">
-							<defs
+								<defs
 								id="defs4210" />
 							<sodipodi:namedview
 								pagecolor="#ffffff"
@@ -74,9 +70,9 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 								fit-margin-left="0"
 								fit-margin-right="0"
 								fit-margin-bottom="0"
-								inkscape:zoom="2.84"
-								inkscape:cx="72.007043"
-								inkscape:cy="87.323944"
+								inkscape:zoom="4.0163665"
+								inkscape:cx="92.496539"
+								inkscape:cy="92.372048"
 								inkscape:window-x="-8"
 								inkscape:window-y="-8"
 								inkscape:window-maximized="1"
@@ -130,19 +126,26 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 								inkscape:transform-center-x="23.96383"
 								inkscape:transform-center-y="-86.16407" />
 							<g
-								fill="#dd3333"
-								id="g20016"
-								transform="matrix(4.5691984,0,0,4.5691984,52.743824,46.46698)">
-								<path
-								d="m 17,2 h -3.5 l -1,-1 h -5 l -1,1 H 3 V 4 H 17 Z M 4,17 a 2,2 0 0 0 2,2 h 8 a 2,2 0 0 0 2,-2 V 5 H 4 Z"
-								id="path20014" />
+								id="g18128"
+								transform="matrix(0.62036692,0,0,0.62036692,52.684766,56.024679)">
+								<circle
+								cx="64"
+								cy="64"
+								r="62"
+								fill="#7788dd"
+								id="circle17626" />
+								<text
+								style="font-weight:bold;font-size:128px;font-family:'DejaVu Sans', 'Segoe UI';text-anchor:middle;fill:#ffffff"
+								y="111"
+								x="68"
+								id="text17628">?</text>
 							</g>
 							</svg>
 					</p>
-					<h1><b>{$getTranslation( 'deletedwiki' )}</b></h1>
-					<p class="lead">{$getTranslation( 'deletedwiki-body' )}</p>
+					<h1><b>{$getTranslation( 'unknownwiki' )}</b></h1>
+					<p class="lead">{$getTranslation( 'unknownwiki-body' )}</p>
 					<p>
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Deleted_wikis" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'page-not-found-learnmore' )}</a>
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'get-help' )}</a>
 					</p>
 				</div>
 			</div>
@@ -156,15 +159,8 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	header( 'Content-length: ' . strlen( $output ) );
 	echo $output;
 
-	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-		MediaWikiServices::allowGlobalInstance();
-		$dataFactory = MediaWikiServices::getInstance()->get( 'CreateWikiDataFactory' );
-		$data = $dataFactory->newInstance( $wgDBname );
-		$data->syncCache();
-	}
-
 	die( 1 );
 } else {
 	// $wgDBname will always be set to a string, even if the --wiki parameter was not passed to a script.
-	echo "The wiki database '{$wgDBname}' was not found." . PHP_EOL;
+	echo "You should not be seeing the UnknownWiki error." . PHP_EOL;
 }
