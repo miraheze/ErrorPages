@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alien333",
 			"DavidL",
 			"Gomoko",
 			"Melimeli",
@@ -10,6 +11,7 @@
 	"database-maintenance": "Wiki en cours de maintenance",
 	"wiki-scheduled-database-maintenance": "Miraheze effectue une maintenance planifiée sur le serveur de base de données de ce wiki. Veuillez réessayer plus tard.",
 	"wiki-unscheduled-database-maintenance": "Miraheze effectue une maintenance imprévue sur le serveur de base de données de ce wiki. Veuillez réessayer plus tard.",
+	"custom-domain-instructions": "Guide des domaines personnalisés",
 	"database-maintenance-join-discord": "Rejoignez le serveur Discord de Miraheze pour plus d’informations.",
 	"did-you-mean": "Voulez-vous dire :",
 	"deletedwiki": "Wiki supprimé",
@@ -17,6 +19,7 @@
 	"missingwiki": "Wiki non trouvé",
 	"notfound": "Non trouvé",
 	"gateway-timeout": "Délai de passerelle dépassé",
+	"get-help": "Obtenir de l’aide",
 	"504-gateway-timeout": "504 Délai de passerelle dépassé",
 	"page-not-found": "Page non trouvée",
 	"page-not-found-alternatively": "Essayez de visiter la [/|page principale] ou lisez [https://fr.wikipedia.org/wiki/Erreur_HTTP_404|plus d’informations] au sujet de ce type d’erreur.",
@@ -24,6 +27,7 @@
 	"page-not-found-learnmore": "En savoir plus",
 	"page-not-found-more": "Nous n’avons pas pu trouver cette page. Vérifiez l’orthographe et essayez à nouveau, ou bien cliquez sur le lien ci-dessus.",
 	"tryagainlater": "Réessayez ultérieurement.",
+	"unknownwiki": "Domaine mal configuré",
 	"wiki-directory": "répertoire",
 	"wiki-not-found": "Nous n’avons pas pu trouver ce wiki. Vérifiez l’orthographe et essayez à nouveau.",
 	"wiki-not-found-archiveorg": "Rechercher sur Archive.org",
