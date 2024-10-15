@@ -7,7 +7,7 @@ global $wgDBname;
 if ( MW_ENTRY_POINT !== 'cli' ) {
 	require_once __DIR__ . '/getTranslations.php';
 
-	$requestWikiUrl = 'https://meta.miraheze.org/wiki/Special:RequestWiki?wpsubdomain=' . $wgDBname;
+	$requestWikiUrl = 'https://meta.miraheze.org/wiki/Special:RequestWiki?wpsubdomain=' . substr($wgDBname, 0, -4);
 
 	$getLanguageCode = 'getLanguageCode';
 	$getTranslation = 'getTranslation';
