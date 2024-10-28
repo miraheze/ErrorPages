@@ -4,6 +4,7 @@
 			"Alien333",
 			"DavidL",
 			"Gomoko",
+			"Mahabarata",
 			"Melimeli",
 			"Verdy p"
 		]
@@ -28,6 +29,7 @@
 	"page-not-found-more": "Nous n’avons pas pu trouver cette page. Vérifiez l’orthographe et essayez à nouveau, ou bien cliquez sur le lien ci-dessus.",
 	"tryagainlater": "Réessayez ultérieurement.",
 	"unknownwiki": "Domaine mal configuré",
+	"unknownwiki-body": "Ce domaine est rattaché à Miraheze mais aucun wiki n'est configuré sur ce domaine.\nSi vous avez effectué une demande de domaine personnalisé, revenez dans quelques minutes.",
 	"wiki-directory": "répertoire",
 	"wiki-not-found": "Nous n’avons pas pu trouver ce wiki. Vérifiez l’orthographe et essayez à nouveau.",
 	"wiki-not-found-archiveorg": "Rechercher sur Archive.org",
