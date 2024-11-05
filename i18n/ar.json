@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Asma",
+			"Meno25",
 			"Mohammed Qays",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"did-you-mean": "هل تعني:",
-	"missingwiki": "لم يعثر على الويكي",
+	"missingwiki": "لم يتم العثور على ويكي",
 	"notfound": "غير موجود",
 	"page-not-found": "الصفحة غير موجودة",
 	"page-not-found-mainpage": "اذهب إلى الصفحة الرئيسية",
