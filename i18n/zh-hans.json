@@ -12,7 +12,7 @@
 			"铁桶"
 		]
 	},
-	"database-maintenance": "Wiki正在维护",
+	"database-maintenance": "wiki正在维护",
 	"wiki-scheduled-database-maintenance": "Miraheze正在对此wiki的数据库服务器进行定期维护。请稍后再试。",
 	"wiki-unscheduled-database-maintenance": "Miraheze正在对此wiki的数据库服务器进行计划外维护。请稍后再试。",
 	"custom-domain-instructions": "自定义域名指南",
