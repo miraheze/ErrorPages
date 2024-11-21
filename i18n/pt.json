@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Mbs262"
 		]
 	},
 	"database-maintenance": "Wiki em manutenção",
@@ -24,7 +25,7 @@
 	"wiki-not-found-bureaucrat": "Se é o burocrata da wiki:",
 	"wiki-not-found-browse": "Esta wiki não existe nos nossos servidores. Pode ver as wikis da nossa rede [https://meta.miraheze.org/wiki/Special:WikiDiscover|aqui] ou [https://archive.org/search.php?query=miraheze|ver os arquivos archive.org].",
 	"wiki-not-found-contact": "Se isto constituir um problema, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|contacte-nos].",
-	"wiki-not-found-goback": "Voltar à página anterior",
+	"wiki-not-found-goback": "Página anterior",
 	"wiki-not-found-learnmore": "Saiba mais na Miraheze Meta",
 	"wiki-not-found-meta": "Ir para a Miraheze Meta",
 	"wiki-not-found-more": "O que posso fazer?",
