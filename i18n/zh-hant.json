@@ -4,10 +4,11 @@
 			"Kly",
 			"Winston Sung",
 			"列维劳德",
-			"捍粵者"
+			"捍粵者",
+			"铁桶"
 		]
 	},
-	"database-maintenance": "Wiki 正進行維護",
+	"database-maintenance": "wiki 正在維護",
 	"wiki-scheduled-database-maintenance": "Miraheze 正在進行此 wiki 資料庫伺服器的定期維護。請稍後再試。",
 	"wiki-unscheduled-database-maintenance": "Miraheze 正在進行此 wiki 資料庫伺服器的排程外維護。請稍後再試。",
 	"custom-domain-instructions": "自訂網域指南",
@@ -17,9 +18,9 @@
 	"deletedwiki-body": "此 wiki 已根據請求、不活躍，或違反政策而刪除。",
 	"missingwiki": "找不到 wiki",
 	"notfound": "沒有找到",
-	"gateway-timeout": "Gateway Time-out",
+	"gateway-timeout": "閘道逾時",
 	"get-help": "取得幫助",
-	"504-gateway-timeout": "504 Gateway Time-out",
+	"504-gateway-timeout": "504閘道逾時",
 	"page-not-found": "找不到頁面",
 	"page-not-found-alternatively": "請嘗試參訪[/|主頁面]，或是關於此錯誤類型的[https://zh.wikipedia.org/wiki/HTTP_404|更多資訊]。",
 	"page-not-found-mainpage": "前往主頁面",
@@ -38,6 +39,6 @@
 	"wiki-not-found-learnmore": "在 Miraheze Meta 上了解更多",
 	"wiki-not-found-meta": "前往 Miraheze Meta",
 	"wiki-not-found-more": "我能做什麼？",
-	"wiki-not-found-startwiki": "啟動此 wiki",
+	"wiki-not-found-startwiki": "建立此 wiki",
 	"wiki-not-found-visitor": "如果您是 wiki 的訪客："
 }

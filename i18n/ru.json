@@ -4,7 +4,8 @@
 			"BerryAVGN",
 			"Kareyac",
 			"Okras",
-			"WerySkok"
+			"WerySkok",
+			"Yurina Tatiana"
 		]
 	},
 	"database-maintenance": "Вики на техобслуживании",
@@ -17,6 +18,7 @@
 	"missingwiki": "Вики не найдена",
 	"notfound": "Не найдено",
 	"gateway-timeout": "Сервер не отвечает",
+	"get-help": "Получить помощь",
 	"504-gateway-timeout": "Ошибка 504 Gateway Time-out",
 	"page-not-found": "Страница не найдена",
 	"page-not-found-alternatively": "Попробуйте посетить [/ru|главную страницу] или прочитать [https://ru.wikipedia.org/wiki/Ошибка_404|больше информации] об этом типе ошибок.",
