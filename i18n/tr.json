@@ -3,16 +3,19 @@
 		"authors": [
 			"LisafBia",
 			"Qwea1",
-			"Sayginer"
+			"Sayginer",
+			"Slickdaddy"
 		]
 	},
+	"deletedwiki": "Viki silindi",
 	"missingwiki": "Viki bulunamadı",
 	"notfound": "Bulunamadı",
 	"page-not-found": "Sayfa Bulunamadı",
 	"page-not-found-alternatively": "Alternatif olarak, [/|Anasayfayı] ziyaret edebilir veya bu tür hatalarla ilgili [https://tr.wikipedia.org/wiki/HTTP_404 daha fazla bilgi] edinebilirsiniz.",
 	"page-not-found-more": "Bu sayfayı bulamadık. Yazımınızı kontrol ederek tekrar deneyin veya yukarıdaki bağlantıya tıklayın.",
 	"wiki-not-found": "Ulaşmaya çalıştığınız vikiyi sunucularımızda bulamadık.",
-	"wiki-not-found-meta": "Beni Mirahaze Meta'ya yönlendir",
+	"wiki-not-found-goback": "Önceki sayfa",
+	"wiki-not-found-meta": "Miraheze Meta'ya git",
 	"wiki-not-found-more": "Ne yapabilirim?",
 	"wiki-not-found-visitor": "Eğer bir viki ziyaretçisiyseniz:"
 }
