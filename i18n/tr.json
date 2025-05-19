@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brightt11",
 			"LisafBia",
 			"Qwea1",
 			"Sayginer",
@@ -10,12 +11,21 @@
 	"deletedwiki": "Viki silindi",
 	"missingwiki": "Viki bulunamadı",
 	"notfound": "Bulunamadı",
+	"get-help": "Yardım al",
+	"504-gateway-timeout": "Ağ geçidi zaman aşımına uğradı (504)",
 	"page-not-found": "Sayfa Bulunamadı",
 	"page-not-found-alternatively": "Alternatif olarak, [/|Anasayfayı] ziyaret edebilir veya bu tür hatalarla ilgili [https://tr.wikipedia.org/wiki/HTTP_404 daha fazla bilgi] edinebilirsiniz.",
+	"page-not-found-mainpage": "Ana sayfaya git",
+	"page-not-found-learnmore": "Daha fazla bilgi",
 	"page-not-found-more": "Bu sayfayı bulamadık. Yazımınızı kontrol ederek tekrar deneyin veya yukarıdaki bağlantıya tıklayın.",
+	"tryagainlater": "Daha sonra yeniden deneyin",
 	"wiki-not-found": "Ulaşmaya çalıştığınız vikiyi sunucularımızda bulamadık.",
+	"wiki-not-found-archiveorg": "Archive.org'da arayın",
+	"wiki-not-found-bureaucrat": "Eğer siz bürokratsanız:",
 	"wiki-not-found-goback": "Önceki sayfa",
+	"wiki-not-found-learnmore": "Miraheze Meta hakkında daha fazla bilgi edin",
 	"wiki-not-found-meta": "Miraheze Meta'ya git",
 	"wiki-not-found-more": "Ne yapabilirim?",
+	"wiki-not-found-startwiki": "Vikiyi başlat",
 	"wiki-not-found-visitor": "Eğer bir viki ziyaretçisiyseniz:"
 }
