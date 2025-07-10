@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"did-you-mean": "Ахь бохург дарий:",
+	"deletedwiki": "Вики дӀайаьккхина(йаьккхина)",
+	"missingwiki": "Вики цакарий",
+	"notfound": "Цакарий",
+	"gateway-timeout": "Серверо жоп ца ло",
+	"get-help": "ГӀо схьаэца",
+	"page-not-found": "АгӀо ца карийна",
+	"page-not-found-mainpage": "Коьрта агӀонга дехьагӀо",
+	"page-not-found-learnmore": "Цул совнаха хаа",
+	"tryagainlater": "ТӀаьхьо хьажа.",
+	"wiki-directory": "Каталог",
+	"wiki-not-found-goback": "Хьалхара агӀо",
+	"wiki-not-found-meta": "Miraheze Meta тӀе гӀо",
+	"wiki-not-found-more": "ХӀун дан мегар ду ас?",
+	"wiki-not-found-startwiki": "Кхолла хӀара вики",
+	"wiki-not-found-visitor": "Нагахь санна хьо вики-хьаша велахь(йелахь):"
+}
