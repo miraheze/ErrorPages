@@ -10,6 +10,7 @@
 	"notfound": "Цакарий",
 	"gateway-timeout": "Серверо жоп ца ло",
 	"get-help": "ГӀо схьаэца",
+	"504-gateway-timeout": "ГӀалат 504 Gateway Time-out",
 	"page-not-found": "АгӀо ца карийна",
 	"page-not-found-mainpage": "Коьрта агӀонга дехьагӀо",
 	"page-not-found-learnmore": "Цул совнаха хаа",
