@@ -162,9 +162,8 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 
 		try {
 			MediaWikiServices::allowGlobalInstance();
-			$dataFactory = MediaWikiServices::getInstance()->get( 'CreateWikiDataFactory' );
-			$data = $dataFactory->newInstance( $wgDBname );
-			$data->syncCache();
+			$dataStore = MediaWikiServices::getInstance()->get( 'CreateWikiDataStore' );
+			$dataStore->syncCache();
 		} catch ( Throwable $ex ) {
 			// Do nothing
 		}
