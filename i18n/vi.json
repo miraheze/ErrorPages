@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bapham123",
 			"Nguyenphutrong2",
 			"Pisceskaze",
 			"SongNgu.xyz"
@@ -9,6 +10,7 @@
 	"database-maintenance": "Wiki đang bảo trì",
 	"wiki-scheduled-database-maintenance": "Miraheze đang tiến hành bảo trì định kỳ trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
 	"wiki-unscheduled-database-maintenance": "Miraheze đang tiến hành bảo trì đột xuất trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
+	"custom-domain-instructions": "Hướng dẫn tên miền tùy chỉnh",
 	"database-maintenance-join-discord": "Tham gia máy chủ Miraheze Discord để biết thêm thông tin",
 	"did-you-mean": "Có phải bạn muốn tìm:",
 	"deletedwiki": "Wiki đã bị xóa",
@@ -16,6 +18,7 @@
 	"missingwiki": "Không tìm thấy wiki",
 	"notfound": "Không tìm thấy",
 	"gateway-timeout": "Hết thời gian chờ",
+	"get-help": "Nhận giúp đỡ",
 	"504-gateway-timeout": "504 Hết thời gian chờ",
 	"page-not-found": "Không tìm thấy trang",
 	"page-not-found-alternatively": "Hãy thử truy cập [/|Trang chính] hoặc đọc [https://en.wikipedia.org/wiki/HTTP_404|thêm thông tin] về loại lỗi này.",
