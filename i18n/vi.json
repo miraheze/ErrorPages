@@ -7,11 +7,10 @@
 			"SongNgu.xyz"
 		]
 	},
-	"database-maintenance": "Wiki đang bảo trì",
 	"wiki-scheduled-database-maintenance": "Miraheze đang tiến hành bảo trì định kỳ trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
 	"wiki-unscheduled-database-maintenance": "Miraheze đang tiến hành bảo trì đột xuất trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
 	"custom-domain-instructions": "Hướng dẫn tên miền tùy chỉnh",
-	"database-maintenance-join-discord": "Tham gia máy chủ Miraheze Discord để biết thêm thông tin",
+	"database-maintenance-join-discord": "Tham gia máy chủ Discord của Miraheze để biết thêm thông tin",
 	"did-you-mean": "Có phải bạn muốn tìm:",
 	"deletedwiki": "Wiki đã bị xóa",
 	"deletedwiki-body": "Wiki này đã bị xóa theo yêu cầu, do không hoạt động hoặc do vi phạm chính sách.",
@@ -26,6 +25,7 @@
 	"page-not-found-learnmore": "Tìm hiểu thêm",
 	"page-not-found-more": "Chúng tôi không thể tìm thấy trang này. Hãy kiểm tra chính tả và thử lại hoặc nhấp vào liên kết ở trên.",
 	"tryagainlater": "Vui lòng thử lại sau.",
+	"unknownwiki": "Tên miền được cấu hình sai",
 	"wiki-directory": "Danh mục",
 	"wiki-not-found": "Chúng tôi không thể tìm thấy wiki này. Kiểm tra chính tả của bạn và thử lại.",
 	"wiki-not-found-archiveorg": "Tìm trên Archive.org",
