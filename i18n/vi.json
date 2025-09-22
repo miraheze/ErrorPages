@@ -7,6 +7,7 @@
 			"SongNgu.xyz"
 		]
 	},
+	"database-maintenance": "Wiki đang được tiến hành bảo trì",
 	"wiki-scheduled-database-maintenance": "Miraheze đang tiến hành bảo trì định kỳ trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
 	"wiki-unscheduled-database-maintenance": "Miraheze đang tiến hành bảo trì đột xuất trên máy chủ cơ sở dữ liệu của wiki này. Vui lòng thử lại sau.",
 	"custom-domain-instructions": "Hướng dẫn tên miền tùy chỉnh",
@@ -26,6 +27,7 @@
 	"page-not-found-more": "Chúng tôi không thể tìm thấy trang này. Hãy kiểm tra chính tả và thử lại hoặc nhấp vào liên kết ở trên.",
 	"tryagainlater": "Vui lòng thử lại sau.",
 	"unknownwiki": "Tên miền được cấu hình sai",
+	"unknownwiki-body": "Tên miền này được trỏ đến Miraheze nhưng không có wiki nào được cấu hình để phục vụ tên miền này.\nNếu bạn đã yêu cầu tên miền tùy chỉnh, hãy truy cập lại sau vài phút.",
 	"wiki-directory": "Danh mục",
 	"wiki-not-found": "Chúng tôi không thể tìm thấy wiki này. Kiểm tra chính tả của bạn và thử lại.",
 	"wiki-not-found-archiveorg": "Tìm trên Archive.org",
