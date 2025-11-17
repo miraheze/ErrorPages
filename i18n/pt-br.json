@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bartomelow",
 			"Eduardoaddad",
 			"PixDeVl",
 			"Trooper57",
@@ -11,14 +12,20 @@
 	"wiki-scheduled-database-maintenance": "Miraheze está realizando uma manutenção programada no servidor do banco de dados deste wiki. Tente novamente mais tarde, por favor.",
 	"wiki-unscheduled-database-maintenance": "Esta wiki está num servidor de base de dados que neste momento está a sofrer uma manutenção esporádica. Tente novamente mais tarde, por favor.",
 	"database-maintenance-join-discord": "Junte-se ao servidor Discord do Miraheze para mais informações",
+	"did-you-mean": "Você quis dizer:",
 	"deletedwiki": "Wiki apagado",
 	"deletedwiki-body": "Este wiki foi excluído por violações da política, inatividade ou por pedido.",
 	"missingwiki": "Wiki não encontrada",
 	"notfound": "Não encontrado",
+	"page-not-found": "Página Não Encontrada",
 	"page-not-found-mainpage": "Vá para a página principal",
 	"page-not-found-learnmore": "Saiba mais",
 	"page-not-found-more": "Não foi possível encontrar esta página. Verifique a ortografia e tente novamente ou clique no link acima.",
-	"tryagainlater": "Tente novamente mais tarde",
+	"tryagainlater": "Tente novamente mais tarde.",
+	"wiki-not-found-goback": "Página anterior",
+	"wiki-not-found-learnmore": "Saiba mais na Miraheze Meta",
+	"wiki-not-found-meta": "Ir para Miraheze Meta",
+	"wiki-not-found-more": "O que posso fazer?",
 	"wiki-not-found-startwiki": "Criar este wiki",
 	"wiki-not-found-visitor": "Se você for um visitante"
 }
