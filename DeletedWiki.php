@@ -157,9 +157,10 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	echo $output;
 
 	if ( in_array( $wgDBname, $wgLocalDatabases ) ) {
-		MediaWikiServices::allowGlobalInstance();
-		$dataStore = MediaWikiServices::getInstance()->get( 'CreateWikiDataStore' );
-		$dataStore->syncCache();
+		$cwDataStore = MediaWikiServices::getInstance()->get( 'CreateWikiDataStore' );
+		$cwDataStore->syncCache();
+		$mwDataStore = MediaWikiServices::getInstance()->get( 'ManageWikiDataStoreFactory' )->newInstance( $wgDBname );
+		$mwDataStore->syncCache();
 	}
 
 	die( 1 );
