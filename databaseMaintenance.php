@@ -13,8 +13,8 @@ echo <<<EOF
 		<head>
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-			<meta name="description" content="{$getTranslation( 'database-maintenance-title' )}" />
-			<title>{$getTranslation( 'database-maintenance-title' )}</title>
+			<meta name="description" content="{$getTranslation( 'database-maintenance' )}" />
+			<title>{$getTranslation( 'database-maintenance' )}</title>
 			<link rel="icon" type="image/x-icon" href="https://meta.miraheze.org/favicon.ico" />
 			<link rel="apple-touch-icon" href="https://meta.miraheze.org/apple-touch-icon.png" />
 			<!-- Bootstrap core CSS -->
