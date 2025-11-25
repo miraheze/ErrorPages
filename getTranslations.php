@@ -5,10 +5,23 @@ function getTranslation( $key ) {
 		return "({$key})";
 	}
 
-	return preg_replace( '/\[(.*?)[\|| ](.*?)\]/', '<a href="$1">$2</a>',
-		nl2br( htmlspecialchars(
-			getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key]
-		) )
+	return htmlspecialchars( getLocalisation()[$key] ?? getFallback()[$key] ?? getDefault()[$key] );
+}
+
+function getParsedTranslation( $key ) {
+	return preg_replace_callback(
+		'/\[(.*?)[\|| ](.*?)\]/',
+		function ( $matches ) {
+			$url = $matches[1];
+			$text = $matches[2];
+
+			if ( !preg_match( '#^(?:https?://|/)#', $url ) ) {
+				return '<!--Invalid URL-->';
+			}
+
+			return '<a href="' . $url . '">' . $text . '</a>';
+		},
+		nl2br( getTranslation( $key ) ),
 	);
 }
 

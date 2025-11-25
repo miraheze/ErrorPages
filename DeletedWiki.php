@@ -14,6 +14,7 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 
 	$getLanguageCode = 'getLanguageCode';
 	$getTranslation = 'getTranslation';
+	$getParsedTranslation = 'getParsedTranslation';
 
 	header( 'Cache-control: no-cache' );
 
@@ -139,17 +140,17 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 							</g>
 							</svg>
 					</p>
-					<h1><b>{$getTranslation( 'deletedwiki' )}</b></h1>
-					<p class="lead">{$getTranslation( 'deletedwiki-body' )}</p>
+					<h1><b>{$getParsedTranslation( 'deletedwiki' )}</b></h1>
+					<p class="lead">{$getParsedTranslation( 'deletedwiki-body' )}</p>
 					<p>
-						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Deleted_wikis" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'page-not-found-learnmore' )}</a>
+						<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Deleted_wikis" class="btn btn-lg btn-outline-primary" role="button">{$getParsedTranslation( 'page-not-found-learnmore' )}</a>
 					</p>
 				</div>
 			</div>
 			<div class="bottom-links">
-				<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
+				<a href="#" onClick="history.go(-1); return false;">&larr; {$getParsedTranslation( 'wiki-not-found-goback' )}</a>
 				<a href="https://miraheze.org">Miraheze</a>
-				<a href="https://meta.miraheze.org/wiki/Special:WikiDiscover">{$getTranslation( 'wiki-directory' )} &rarr;</a>
+				<a href="https://meta.miraheze.org/wiki/Special:WikiDiscover">{$getParsedTranslation( 'wiki-directory' )} &rarr;</a>
 			</div>
 		</html>
 	EOF;

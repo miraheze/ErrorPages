@@ -4,6 +4,7 @@ require_once __DIR__ . '/getTranslations.php';
 
 $getLanguageCode = 'getLanguageCode';
 $getTranslation = 'getTranslation';
+$getParsedTranslation = 'getParsedTranslation';
 
 header( 'Cache-control: no-cache' );
 
@@ -136,18 +137,18 @@ $output = <<<EOF
 						</g>
 						</svg>
 				</p>
-				<h1><b>{$getTranslation( 'unknownwiki' )}</b></h1>
-				<p class="lead">{$getTranslation( 'unknownwiki-body' )}</p>
+				<h1><b>{$getParsedTranslation( 'unknownwiki' )}</b></h1>
+				<p class="lead">{$getParsedTranslation( 'unknownwiki-body' )}</p>
 				<p>
-					<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'get-help' )}</a>
-					<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains" class="btn btn-lg btn-outline-info" role="button">{$getTranslation( 'custom-domain-instructions' )}</a>
+					<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center" class="btn btn-lg btn-outline-primary" role="button">{$getParsedTranslation( 'get-help' )}</a>
+					<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Custom_domains" class="btn btn-lg btn-outline-info" role="button">{$getParsedTranslation( 'custom-domain-instructions' )}</a>
 				</p>
 			</div>
 		</div>
 		<div class="bottom-links">
-			<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
+			<a href="#" onClick="history.go(-1); return false;">&larr; {$getParsedTranslation( 'wiki-not-found-goback' )}</a>
 			<a href="https://miraheze.org">Miraheze</a>
-			<a href="https://meta.miraheze.org/wiki/Special:WikiDiscover">{$getTranslation( 'wiki-directory' )} &rarr;</a>
+			<a href="https://meta.miraheze.org/wiki/Special:WikiDiscover">{$getParsedTranslation( 'wiki-directory' )} &rarr;</a>
 		</div>
 	</html>
 EOF;

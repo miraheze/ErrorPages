@@ -14,10 +14,13 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 	} else {
 		require_once __DIR__ . '/getTranslations.php';
 
-		$requestWikiUrl = 'https://meta.miraheze.org/wiki/Special:RequestWiki?wpsubdomain=' . substr($wgDBname, 0, -4);
+		$escapedRequestWikiUrl = htmlspecialchars(
+			'https://meta.miraheze.org/wiki/Special:RequestWiki?wpsubdomain=' . substr($wgDBname, 0, -4)
+		);
 
 		$getLanguageCode = 'getLanguageCode';
 		$getTranslation = 'getTranslation';
+		$getParsedTranslation = 'getParsedTranslation';
 
 		http_response_code( 404 );
 
@@ -143,17 +146,17 @@ if ( MW_ENTRY_POINT !== 'cli' ) {
 									style="stroke-width:3.86688" />
 								</svg>
 						</p>
-						<h1><b>{$getTranslation( 'missingwiki' )}</b></h1>
-						<p class="lead">{$getTranslation( 'wiki-not-found' )}</p>
+						<h1><b>{$getParsedTranslation( 'missingwiki' )}</b></h1>
+						<p class="lead">{$getParsedTranslation( 'wiki-not-found' )}</p>
 						<p>
-							<a href="{$requestWikiUrl}" class="btn btn-lg btn-outline-primary" role="button">{$getTranslation( 'wiki-not-found-startwiki' )}</a>
+							<a href="{$escapedRequestWikiUrl}" class="btn btn-lg btn-outline-primary" role="button">{$getParsedTranslation( 'wiki-not-found-startwiki' )}</a>
 						</p>
 					</div>
 				</div>
 				<div class="bottom-links">
-					<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
+					<a href="#" onClick="history.go(-1); return false;">&larr; {$getParsedTranslation( 'wiki-not-found-goback' )}</a>
 					<a href="https://miraheze.org">Miraheze</a>
-					<a href="https://meta.miraheze.org/wiki/Special:WikiDiscover">{$getTranslation( 'wiki-directory' )} &rarr;</a>
+					<a href="https://meta.miraheze.org/wiki/Special:WikiDiscover">{$getParsedTranslation( 'wiki-directory' )} &rarr;</a>
 				</div>
 			</html>
 		EOF;

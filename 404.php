@@ -3,6 +3,7 @@
 require_once __DIR__ . '/getTranslations.php';
 
 $getTranslation = 'getTranslation';
+$getParsedTranslation = 'getParsedTranslation';
 
 header( 'Content-Type: text/html; charset=utf-8' );
 header( 'Cache-Control: s-maxage=2678400, max-age=2678400' );
@@ -33,13 +34,13 @@ echo <<<EOF
 						</p>
 					</a>
 				</p>
-				<h1><b>{$getTranslation( 'page-not-found' )}</b></h1>
-				<p>{$getTranslation( 'page-not-found-more' )}</p>
+				<h1><b>{$getParsedTranslation( 'page-not-found' )}</b></h1>
+				<p>{$getParsedTranslation( 'page-not-found-more' )}</p>
 			</div>
 		</div>
 		<div class="bottom-links">
-			<a href="#" onClick="history.go(-1); return false;">&larr; {$getTranslation( 'wiki-not-found-goback' )}</a>
-			<a href="/">{$getTranslation( 'page-not-found-mainpage' )}</a>
+			<a href="#" onClick="history.go(-1); return false;">&larr; {$getParsedTranslation( 'wiki-not-found-goback' )}</a>
+			<a href="/">{$getParsedTranslation( 'page-not-found-mainpage' )}</a>
 		</div>
 	</html>
 EOF;
