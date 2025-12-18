@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"database-maintenance": "Wiki en mantemento",
+	"wiki-scheduled-database-maintenance": "Miraheze está a realizar un mantemento programado no servidor de base de datos deste wiki. Inténtao de novo máis tarde.",
+	"wiki-unscheduled-database-maintenance": "Miraheze está a realizar un mantemento non programado no servidor de base de datos deste wiki. Inténtao de novo máis tarde.",
+	"custom-domain-instructions": "Guía de dominios personalizados",
+	"database-maintenance-join-discord": "Únete ao servidor de Discord de Miraheze para obter máis información",
+	"did-you-mean": "Quizais quixeches dicir:",
+	"deletedwiki": "Wiki eliminado",
+	"deletedwiki-body": "Esta wiki foi eliminado por solicitude, por inactividade ou por infracción das normas.",
+	"missingwiki": "Non se atopou o wiki",
+	"notfound": "Non atopado",
+	"gateway-timeout": "Tempo de espera esgotado",
+	"get-help": "Obter axuda",
+	"504-gateway-timeout": "504 Tempo de espera esgotado",
+	"page-not-found": "Páxina non atopada",
+	"page-not-found-alternatively": "Intenta visitar a [/|páxina principal] ou le [https://gl.wikipedia.org/wiki/HTTP_404|máis información] sobre este tipo de erro.",
+	"page-not-found-mainpage": "Ir á páxina principal",
+	"page-not-found-learnmore": "Máis información",
+	"page-not-found-more": "Non puidemos atopar esta páxina. Revisa a ortografía e inténtao de novo ou fai clic na ligazón de arriba.",
+	"tryagainlater": "Inténtao de novo máis tarde.",
+	"unknownwiki": "Dominio mal configurado",
+	"unknownwiki-body": "Este dominio apunta a Miraheze pero non hai ningún wiki configurado para servilo.\nSe realizaches unha solicitude de dominio personalizado, volve nun anaco.",
+	"wiki-directory": "Directorio",
+	"wiki-not-found": "Non puidemos atopar este wiki. Revisa a ortografía e inténtao de novo.",
+	"wiki-not-found-archiveorg": "Buscar en Archive.org",
+	"wiki-not-found-bureaucrat": "Se es un burócrata do wiki:",
+	"wiki-not-found-browse": "Esta wiki non existe nos nosos servidores. Podes navegar polos wikis da nosa rede [https://meta.miraheze.org/wiki/Special:WikiDiscover|aquí] ou [https://archive.org/search.php?query=miraheze|consultar os arquivos de archive.org].",
+	"wiki-not-found-contact": "Se isto supón un problema, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|ponte en contacto connosco].",
+	"wiki-not-found-goback": "Páxina anterior",
+	"wiki-not-found-learnmore": "Máis información sobre Miraheze Meta",
+	"wiki-not-found-meta": "Ir a Miraheze Meta",
+	"wiki-not-found-more": "Que podo facer?",
+	"wiki-not-found-startwiki": "Comezar este wiki",
+	"wiki-not-found-visitor": "Se es un visitante do wiki:"
+}
