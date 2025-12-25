@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Sabelöga",
+			"Stefan2255",
 			"Tore"
 		]
 	},
@@ -9,13 +10,13 @@
 	"missingwiki": "Wikin hittades inte",
 	"notfound": "Hittades inte",
 	"page-not-found": "Sidan kunde inte hittas",
-	"page-not-found-alternatively": "Eller så kan du besöka [/huvudsidan] eller [https://en.wikipedia.org/wiki/HTTP_404|läsa mer] om den här sortens fel.",
-	"page-not-found-more": "Vi hittade inte ovannämnda sida på våra servrar.",
-	"wiki-not-found": "Vi hittade inte wikin du letar efter på våra servrar.",
+	"page-not-found-alternatively": "Försök att besöka [/|Huvudsidan] eller läs [https://sv.wikipedia.org/wiki/HTTP_404|mer information] om den här typen av fel.",
+	"page-not-found-more": "Vi kunde inte hitta den här sidan. Kontrollera stavningen och försök igen eller klicka på länken ovan.",
+	"wiki-not-found": "Vi kunde inte hitta den här wikin. Kontrollera stavningen och försök igen.",
 	"wiki-not-found-bureaucrat": "Om du är wikins byråkrat:",
 	"wiki-not-found-browse": "Denna wikin finns inte på våra servrar. Du kan gå igenom wikier på vårt nätverk [https://meta.miraheze.org/wiki/Special:WikiDiscover|här] or [https://archive.org/search.php?query=miraheze|ta en titt i arkiven på archive.org].",
 	"wiki-not-found-contact": "Var god [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|kontakta oss] om detta är ett problem.",
-	"wiki-not-found-meta": "Ta mig till Miraheze Meta",
+	"wiki-not-found-meta": "Gå till Miraheze Meta",
 	"wiki-not-found-more": "Vad kan jag göra?",
 	"wiki-not-found-visitor": "Om du är en besökare på wikin:"
 }
