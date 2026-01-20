@@ -131,6 +131,7 @@ echo <<<EOF
 					</g>
 					</svg>
 				<h1><b>{$getParsedTranslation( 'database-maintenance' )}</b></h1>
+				<p class="lead">{$getParsedTranslation( 'wiki-unscheduled-database-maintenance' )}</p>
 				<p>
 					<a href="https://miraheze.org/discord" class="btn btn-lg btn-outline-primary" role="button">{$getParsedTranslation( 'database-maintenance-join-discord' )}</a>
 				</p>
