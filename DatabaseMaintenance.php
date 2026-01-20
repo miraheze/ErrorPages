@@ -1,13 +1,15 @@
 <?php
 
+global $wgDatabaseClustersMaintenanceType;
+
 require_once __DIR__ . '/getTranslations.php';
 
 $getLanguageCode = 'getLanguageCode';
 $getTranslation = 'getTranslation';
 $getParsedTranslation = 'getParsedTranslation';
 
-global $wgDatabaseClustersMaintenanceType;
-$leadMessage = getParsedTranslation( "wiki-$wgDatabaseClustersMaintenanceType-database-maintenance" );
+$type = $wgDatabaseClustersMaintenanceType === 'scheduled' ? 'scheduled' : 'unscheduled';
+$leadMessage = getParsedTranslation( "wiki-$type-database-maintenance" );
 
 http_response_code( 503 );
 
