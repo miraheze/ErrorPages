@@ -1,10 +1,15 @@
 <?php
 
+global $wgDatabaseClustersMaintenanceType;
+
 require_once __DIR__ . '/getTranslations.php';
 
 $getLanguageCode = 'getLanguageCode';
 $getTranslation = 'getTranslation';
 $getParsedTranslation = 'getParsedTranslation';
+
+$type = $wgDatabaseClustersMaintenanceType === 'scheduled' ? 'scheduled' : 'unscheduled';
+$leadMessage = getParsedTranslation( "wiki-$type-database-maintenance" );
 
 http_response_code( 503 );
 
@@ -131,16 +136,14 @@ echo <<<EOF
 					</g>
 					</svg>
 				<h1><b>{$getParsedTranslation( 'database-maintenance' )}</b></h1>
-				<p class="lead">{$getParsedTranslation( 'wiki-unscheduled-database-maintenance' )}</p>
+				<p class="lead">{$leadMessage}</p>
 				<p>
 					<a href="https://miraheze.org/discord" class="btn btn-lg btn-outline-primary" role="button">{$getParsedTranslation( 'database-maintenance-join-discord' )}</a>
 				</p>
-				<!--<small>Maintenance has been extended for this database cluster to 12:00 UTC, Monday, 19 December, 2022. Please check back soon.</small>-->
 			</div>
 		</div>
 		<div class="bottom-links">
 			<a href="#" onClick="history.go(-1); return false;">&larr; {$getParsedTranslation( 'wiki-not-found-goback' )}</a>
-			<!--<a href="https://meta.miraheze.org/wiki/Special:MyLanguage/Miraheze">{$getParsedTranslation( 'wiki-not-found-meta' )}</a>-->
 		</div>
 	</html>
 EOF;
