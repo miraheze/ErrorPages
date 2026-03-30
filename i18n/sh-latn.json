@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Vlad5250",
 			"Winston Sung"
 		]
@@ -17,8 +18,8 @@
 	"page-not-found": "Stranica nije pronađena",
 	"page-not-found-mainpage": "Idi na glavnu stranicu",
 	"page-not-found-learnmore": "Saznajte više",
-	"page-not-found-more": "Nismo mogli pronaći ovu stranicu. Provjerite pravopis i pokušajte ponovno ili kliknite gornji link.",
+	"page-not-found-more": "Nismo mogli pronaći ovu stranicu. Provjerite pravopis i pokušajte ponovo ili kliknite gornji link.",
 	"tryagainlater": "Pokušajte ponovo kasnije.",
-	"wiki-not-found": "Nismo mogli pronaći ovaj viki. Provjerite pravopis i pokušajte ponovno.",
+	"wiki-not-found": "Nije moguće pronaći ovaj wiki. Provjerite pravopis i pokušajte ponovo.",
 	"wiki-not-found-archiveorg": "Pretražite na Archive.org"
 }
