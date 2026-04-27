@@ -3,6 +3,7 @@
 		"authors": [
 			"Agent",
 			"EmicraftNoob",
+			"JorgeElias2302",
 			"No se",
 			"OriginReboot"
 		]
@@ -26,6 +27,7 @@
 	"wiki-not-found-archiveorg": "Buscar en Archive.org",
 	"wiki-not-found-bureaucrat": "Si eres el burócrata de la wiki:",
 	"wiki-not-found-browse": "Esta wiki no existe en Miraheze. Puedes explorar wikis de nuestra red [https://meta.miraheze.org/wiki/Special:WikiDiscover|aquí] o [https://archive.org/search.php?query=miraheze|o ver archivados de archive.org].",
+	"wiki-not-found-contact": "Si esto es un problema, por favor [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|contáctanos].",
 	"wiki-not-found-goback": "Página anterior",
 	"wiki-not-found-learnmore": "Conozca más sobre Miraheze Meta",
 	"wiki-not-found-meta": "Ir a Miraheze Meta",
