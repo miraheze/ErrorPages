@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Brightt11",
+			"HakanIST",
 			"LisafBia",
 			"Qwea1",
 			"SaldırganSincap",
@@ -9,6 +10,8 @@
 			"Slickdaddy"
 		]
 	},
+	"database-maintenance": "Viki bakım altında",
+	"wiki-scheduled-database-maintenance": "Miraheze bu vikinin veritabanı sunucusunda planlı bakım gerçekleştirmektedir. Lütfen daha sonra tekrar deneyin.",
 	"deletedwiki": "Viki silindi",
 	"missingwiki": "Viki bulunamadı",
 	"notfound": "Bulunamadı",
