@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"database-maintenance": "Prebieha údržba wiki",
+	"wiki-scheduled-database-maintenance": "Miraheze vykonáva plánovanú údržbu databázového servera tejto wiki. Skúste to prosím neskôr.",
+	"wiki-unscheduled-database-maintenance": "Miraheze vykonáva neplánovanú údržbu databázového servera tejto wiki. Skúste to prosím neskôr.",
+	"custom-domain-instructions": "Návod pre vlastné domény",
+	"database-maintenance-join-discord": "Pre viac informácií sa pripojte na Discord server Miraheze",
+	"did-you-mean": "Mysleli ste:",
+	"deletedwiki": "Wiki bola zmazaná",
+	"deletedwiki-body": "Táto wiki bola zmazaná buď na žiadosť, pre neaktivitu alebo pre porušenie pravidiel.",
+	"missingwiki": "Wiki sa nenašla",
+	"notfound": "Nenájdené",
+	"gateway-timeout": "Časový limit brány vypršal",
+	"get-help": "Získať pomoc",
+	"504-gateway-timeout": "504 Časový limit brány vypršal",
+	"page-not-found": "Stránka sa nenašla",
+	"page-not-found-alternatively": "Skúste navštíviť [/|Hlavnú stránku] alebo si prečítajte [https://en.wikipedia.org/wiki/HTTP_404|viac informácií] o tomto type chyby.",
+	"page-not-found-mainpage": "Prejsť na hlavnú stránku",
+	"page-not-found-learnmore": "Zistiť viac",
+	"page-not-found-more": "Túto stránku sa nám nepodarilo nájsť. Skontrolujte pravopis a skúste to znova, alebo kliknite na odkaz vyššie.",
+	"tryagainlater": "Skúste to neskôr.",
+	"unknownwiki": "Doména je nesprávne nastavená",
+	"unknownwiki-body": "Táto doména smeruje na Miraheze, ale nie je nastavená žiadna wiki, ktorá by ju obsluhovala.\nAk ste podali žiadosť o vlastnú doménu, navštívte znova o niekoľko minút.",
+	"wiki-directory": "Adresár",
+	"wiki-not-found": "Túto wiki sa nám nepodarilo nájsť. Skontrolujte pravopis a skúste to znova.",
+	"wiki-not-found-archiveorg": "Hľadať na Archive.org",
+	"wiki-not-found-bureaucrat": "Ak ste byrokrat wiki:",
+	"wiki-not-found-browse": "Táto wiki na našich serveroch neexistuje. Môžete si prehliadať wiki v našej sieti [https://meta.miraheze.org/wiki/Special:WikiDiscover|tu] alebo si [https://archive.org/search.php?query=miraheze|pozrieť archívy Archive.org].",
+	"wiki-not-found-contact": "Ak ide o problém, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|kontaktujte nás].",
+	"wiki-not-found-goback": "Predošlá stránka",
+	"wiki-not-found-learnmore": "Zistiť viac na Miraheze Meta",
+	"wiki-not-found-meta": "Prejsť na Miraheze Meta",
+	"wiki-not-found-more": "Čo môžem urobiť?",
+	"wiki-not-found-startwiki": "Spustiť túto wiki",
+	"wiki-not-found-visitor": "Ak ste návštevník wiki:"
+}
