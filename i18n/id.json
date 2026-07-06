@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"AF1011",
+			"Penyuwangi",
+			"Tej"
+		]
+	},
+	"database-maintenance": "Wiki sedang dalam pemeliharaan",
+	"wiki-scheduled-database-maintenance": "Miraheze sedang melakukan pemeliharaan terjadwal pada peladen pangkalan data wiki ini. Silakan coba lagi nanti.",
+	"wiki-unscheduled-database-maintenance": "Miraheze sedang melakukan pemeliharaan tak terjadwal pada peladen pangkalan data wiki ini. Silakan coba lagi nanti.",
+	"custom-domain-instructions": "Panduan domain kustom",
+	"database-maintenance-join-discord": "Bergabunglah dengan peladen Miraheze Discord untuk informasi lebih lanjut",
+	"did-you-mean": "Mungkin maksud Anda $1?",
+	"deletedwiki": "Wiki dihapus",
+	"deletedwiki-body": "Wiki ini telah dihapus baik atas permintaan, karena tidak aktif, atau karena pelanggaran kebijakan.",
+	"missingwiki": "Berkas tidak ditemukan",
+	"notfound": "Tidak ditemukan",
+	"get-help": "Dapatkan bantuan",
+	"504-gateway-timeout": "504 Gateway Time-out",
+	"page-not-found": "Halaman Tidak Ditemukan",
+	"page-not-found-alternatively": "Coba kunjungi [/|Halaman utama] atau baca [https://en.wikipedia.org/wiki/HTTP_404|untuk informasi lebih lanjut] tentang jenis kesalahan ini.",
+	"page-not-found-mainpage": "Ke halaman utama",
+	"page-not-found-learnmore": "Pelajari lebih lanjut",
+	"page-not-found-more": "Kami tidak dapat menemukan halaman ini. Periksa ejaan Anda dan coba lagi atau klik tautan di atas.",
+	"tryagainlater": "Coba lagi nanti.",
+	"unknownwiki": "Konfigurasi domain salah.",
+	"unknownwiki-body": "Domain ini mengarah ke Miraheze tetapi tiada wiki yang dikonfigurasi untuk melayaninya.\nJika Anda telah mengajukan permintaan domain khusus, kunjungi lagi dalam beberapa menit.",
+	"wiki-directory": "Direktori",
+	"wiki-not-found": "Kami tidak dapat menemukan wiki ini. Periksa ejaan Anda dan coba lagi.",
+	"wiki-not-found-archiveorg": "Telusuri di Archive.org",
+	"wiki-not-found-bureaucrat": "Jika Anda adalah birokrat wiki:",
+	"wiki-not-found-browse": "Wiki ini tidak ada di server kami. Anda dapat menjelajahi wiki di jaringan kami [https://meta.miraheze.org/wiki/Special:WikiDiscover|di sini] atau [https://archive.org/search.php?query=miraheze|lihat arsip archive.org].",
+	"wiki-not-found-contact": "Jika ini menjadi masalah, silakan [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|hubungi kami].",
+	"wiki-not-found-goback": "Halaman sebelumnya",
+	"wiki-not-found-learnmore": "Pelajari selengkapnya di Miraheze Meta",
+	"wiki-not-found-meta": "Ke Miraheze Meta",
+	"wiki-not-found-more": "Apa yang bisa saya lakukan?",
+	"wiki-not-found-startwiki": "Memulai wiki ini",
+	"wiki-not-found-visitor": "Jika Anda adalah pengunjung wiki:"
+}
