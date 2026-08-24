@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"database-maintenance": "د ويکي ساتنې لاندې",
+	"wiki-scheduled-database-maintenance": "ميراهېزې د دې ويکي د اومتوک‌اډانې پالنگر په اړه مهالوېش شوې ساتنه ترسره کوي. مهرباني وکړئ وروسته بيا هڅه وکړئ.",
+	"wiki-unscheduled-database-maintenance": "ميراهېزې د دې ويکي د اومتوک‌اډانې پالنگر په اړه مهالوېش شوې ساتنه ترسره کوي. مهرباني وکړئ وروسته بيا هڅه وکړئ.",
+	"custom-domain-instructions": "د واک‌سيمو دوديز لارښود",
+	"database-maintenance-join-discord": "د نورو مالوماتو لپاره د ميراهېزې موندنې پالنگر سره يوځای شئ",
+	"did-you-mean": "ايا موخه مو دا وه:",
+	"deletedwiki": "ويکي ړنگه شوه",
+	"deletedwiki-body": "دا ويکي د غوښتنې له مخې د نه فعاليت له کبله يا د تگلارې څخه د سرغړونو له کبله ړنگه شوې ده.",
+	"missingwiki": "ويکي ونه موندل شو",
+	"notfound": "ونه موندل شو",
+	"gateway-timeout": "ورلار وځنډېده",
+	"get-help": "مرسته ترلاسه‌کول",
+	"504-gateway-timeout": "د ۵۰۴ ورلارې ځنډېدل",
+	"page-not-found": "مخ ونه موندل شو",
+	"page-not-found-alternatively": "د دې ډول تېروتنې په اړه [/|Main Page] or read [https://en.wikipedia.org/wiki/HTTP_404|نور مالومات] ولولئ.",
+	"page-not-found-mainpage": "آر مخ ته ورتلل",
+	"page-not-found-learnmore": "نور مالومات",
+	"page-not-found-more": "موږ دا مخ ونه موند. خپله املا وگورئ او بيا هڅه وکئ يا پورته تړونی کېکاږئ.",
+	"tryagainlater": "وروسته بيا هڅه وکړه.",
+	"unknownwiki": "واک‌سيمه ناسمه ترتيب شوې",
+	"unknownwiki-body": "دا واک‌سيمه ميراهېزې ته اشاره شوې ده؛ خو هېڅ ويکي د دې پاللو لپاره ټاکل شوې نه ده.\nکه تاسو د دوديزې واک‌سيمې غوښتنه کړې وي؛ نو په څو دقيقو کې يې بيا ليدنه وکړئ.",
+	"wiki-directory": "تگلوری",
+	"wiki-not-found": "موږ دا ويکي ونه موندله. خپل املا وگورئ او بيا هڅه وکړئ.",
+	"wiki-not-found-archiveorg": "په Archive.org کې پلټل",
+	"wiki-not-found-bureaucrat": "که تاسو د ويکي بيروکراټ ياست:",
+	"wiki-not-found-browse": "دا ويکي زموږ په پالنگرونو کې شتون نلري. تاسو کولی شئ زموږ د شبکې ويکي‌گانې [https://meta.miraheze.org/wiki/Special:WikiDiscover|دلته] وگورئ يا [https://archive.org/search.php?query=miraheze|archive.org کتل]",
+	"wiki-not-found-contact": "که دا يوه ستونزه وي نو مهرباني وکړئ [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|له موږ سره اړيکه ونيسئ].",
+	"wiki-not-found-goback": "تېر مخ",
+	"wiki-not-found-learnmore": "د ميراهېزې ورهاخوا په اړه نور زده کړئ",
+	"wiki-not-found-meta": "د ميراهېزې ورهاخوا ته ورتلل",
+	"wiki-not-found-more": "زه څه کولای شم؟",
+	"wiki-not-found-startwiki": "دا ويکي پيلول",
+	"wiki-not-found-visitor": "که تاسو ويکي ليدونکی ياست:"
+}

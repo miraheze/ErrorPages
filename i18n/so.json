@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"database-maintenance": "Wiki-ga ayaa ku jira dayactir",
+	"wiki-scheduled-database-maintenance": "Miraheze waxay dayactir qorshaysan ka waddaa server-ka xog-ururinta ee wiki-gan. Fadlan mar kale isku day goor dambe.",
+	"wiki-unscheduled-database-maintenance": "Miraheze waxay dayactir aan qorshaysnayn ka waddaa server-ka xog-ururinta ee wiki-gan. Fadlan mar kale isku day goor dambe.",
+	"custom-domain-instructions": "Hagaha Domain-yada gaarka ah",
+	"database-maintenance-join-discord": "Ku biir server-ka Discord-ka Miraheze si aad u hesho macluumaad dheeraad ah",
+	"did-you-mean": "Ma waxaad ula jeeddaa:",
+	"deletedwiki": "Wiki waa la tirtiray",
+	"deletedwiki-body": "Wiki-gan waa la tirtiray, sababtuna waa codsi, dhaqdhaqaaq la'aan ama jebinta siyaasadaha.",
+	"missingwiki": "Wiki lama helin",
+	"notfound": "Lama helin",
+	"gateway-timeout": "Waqtiga albaabka ayaa dhammaaday",
+	"get-help": "Hel caawimo",
+	"504-gateway-timeout": "504 Waqtiga albaabka ayaa dhammaaday",
+	"page-not-found": "Bogga lama helin",
+	"page-not-found-alternatively": "Isku day inaad booqato [/|Bogga Hore] ama akhri [https://en.wikipedia.org/wiki/HTTP_404|macluumaad dheeraad ah] oo ku saabsan noocan khaladka ah.",
+	"page-not-found-mainpage": "Ugu dub bogga hore",
+	"page-not-found-learnmore": "Wax badan baro",
+	"page-not-found-more": "Ma aanan heli karin boggan. Hubi higgaaddaada oo mar kale isku day ama guji xiriirka kore.",
+	"tryagainlater": "Isku day mar kale hadhow.",
+	"unknownwiki": "Domain-ka si khaldan ayaa loo habeeyey",
+	"unknownwiki-body": "Domain-kan wuxuu tilmaamayaa Miraheze, laakiin ma jiro wiki loo habeeyey inuu u adeego.\nHaddii aad gudbisay codsi domain gaar ah, mar kale booqo dhowr daqiiqo gudahood.",
+	"wiki-directory": "Hagaha",
+	"wiki-not-found": "Ma aanan heli karin wiki-gan. Hubi higgaaddaada oo mar kale isku day.",
+	"wiki-not-found-archiveorg": "Ka raadi Archive.org",
+	"wiki-not-found-bureaucrat": "Haddii aad tahay xafiiska wiki-ga:",
+	"wiki-not-found-browse": "Wiki-gan kama jiro adeegayaashayada. Waxaad ka dhex baari kartaa wiki-yada ku jira shabakaddeenna [https://meta.miraheze.org/wiki/Special:WikiDiscover|halkan] ama [https://archive.org/search.php?query=miraheze|ka daawan kartaa kaydadka archive.org].",
+	"wiki-not-found-contact": "Haddii tani ay dhibaato tahay, fadlan [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|nala soo xiriir].",
+	"wiki-not-found-goback": "Boggii hore",
+	"wiki-not-found-learnmore": "Wax badan ka baro Miraheze Meta",
+	"wiki-not-found-meta": "Ugu dub Miraheze Meta",
+	"wiki-not-found-more": "Maxaan sameyn karaa?",
+	"wiki-not-found-startwiki": "Bilow wiki-gan",
+	"wiki-not-found-visitor": "Haddii aad tahay booqde wiki:"
+}
