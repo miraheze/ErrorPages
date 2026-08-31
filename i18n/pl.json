@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"PanWor"
+		]
+	},
+	"database-maintenance": "Wiki w trakcie konserwacji",
+	"wiki-scheduled-database-maintenance": "Miraheze przeprowadza planowe prace konserwacyjne na serwerze bazy danych tej wiki. Spróbuj ponownie później.",
+	"wiki-unscheduled-database-maintenance": "Miraheze przeprowadza nieplanowe prace konserwacyjne na serwerze bazy danych tej wiki. Spróbuj ponownie później.",
+	"custom-domain-instructions": "Przewodnik po domenach niestandardowych",
+	"database-maintenance-join-discord": "Dołącz do serwera Miraheze na Discordzie, aby uzyskać więcej informacji",
+	"did-you-mean": "Czy chodziło Ci o:",
+	"deletedwiki": "Usunięta wiki",
+	"deletedwiki-body": "Ta wiki została usunięta w wyniku zgłoszenia, z powodu braku aktywności lub naruszenia zasad.",
+	"missingwiki": "Nie znaleziono wiki",
+	"notfound": "Nie znaleziono",
+	"gateway-timeout": "Przekroczono limit czasu bramki",
+	"get-help": "Uzyskaj wsparcie",
+	"504-gateway-timeout": "504 – przekroczono limit czasu bramki",
+	"page-not-found": "Nie znaleziono strony",
+	"page-not-found-alternatively": "Spróbuj przejść do [/|strony głównej] lub przeczytaj [https://pl.wikipedia.org/wiki/HTTP_404|więcej informacji] na temat tego rodzaju błędu.",
+	"page-not-found-mainpage": "Przejdź do strony głównej",
+	"page-not-found-learnmore": "Dowiedz się więcej",
+	"page-not-found-more": "Nie udało nam się znaleźć tej strony. Sprawdź pisownię i spróbuj ponownie lub kliknij powyższy link.",
+	"tryagainlater": "Spróbuj ponownie później.",
+	"unknownwiki": "Nieprawidłowa konfiguracja domeny",
+	"unknownwiki-body": "Ta domena przekierowuje do Miraheze, ale nie skonfigurowano żadnej wiki, która miałaby ją obsługiwać.\nJeśli wniosek o domenę niestandardową został niedawno złożony, spróbuj ponownie za kilka minut.",
+	"wiki-directory": "Katalog wiki",
+	"wiki-not-found": "Nie udało nam się znaleźć tej wiki. Sprawdź pisownię i spróbuj ponownie.",
+	"wiki-not-found-archiveorg": "Wyszukaj na archive.org",
+	"wiki-not-found-bureaucrat": "Jeśli jesteś biurokratą wiki:",
+	"wiki-not-found-browse": "Ta wiki nie istnieje na naszych serwerach. Możesz przeglądać wiki w naszej sieci [https://meta.miraheze.org/wiki/Special:WikiDiscover|tutaj] lub przejrzeć [https://archive.org/search.php?query=miraheze|archiwa na archive.org].",
+	"wiki-not-found-contact": "Jeśli uważasz, że to błąd, [https://meta.miraheze.org/wiki/Special:MyLanguage/Help_center|skontaktuj się z nami].",
+	"wiki-not-found-goback": "Poprzednia strona",
+	"wiki-not-found-learnmore": "Dowiedz się więcej na Miraheze Meta",
+	"wiki-not-found-meta": "Przejdź do Miraheze Meta",
+	"wiki-not-found-more": "Co mogę zrobić?",
+	"wiki-not-found-startwiki": "Załóż tę wiki",
+	"wiki-not-found-visitor": "Jeśli tylko odwiedzasz tę wiki:"
+}
