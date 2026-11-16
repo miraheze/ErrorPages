@@ -1,7 +1,7 @@
 name: Continuous integration
 on:
   push:
-    branches: [ main ]
+    branches: [ main, 'renovate/**' ]
   pull_request:
     branches: [ main ]
 
@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/checkout@v7
 
-      - name: PHP ${{ matrix.php }} 
+      - name: PHP ${{ matrix.php }}
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
@@ -31,11 +31,13 @@ jobs:
   notify-irc:
     needs: build
     runs-on: ubuntu-latest
-    if: ${{ always() && github.repository_owner == 'miraheze' && ( github.ref	== 'refs/heads/main' || github.event_name == 'pull_request' ) }}
+    if: ${{ always() && github.repository_owner == 'miraheze' && ( github.ref == 'refs/heads/main' || github.event_name == 'pull_request' ) }}
     steps:
       - name: succeeded
+        continue-on-error: true
         uses: technote-space/workflow-conclusion-action@v3
       - uses: rectalogic/notify-irc@v2
+        continue-on-error: true
         if: env.WORKFLOW_CONCLUSION == 'success'
         with:
           channel: "#miraheze-tech-ops"
@@ -45,8 +47,10 @@ jobs:
           sasl_password: ${{ secrets.IRC_MIRAHEZEBOTS }}
 
       - name: failed
+        continue-on-error: true
         uses: technote-space/workflow-conclusion-action@v3
       - uses: rectalogic/notify-irc@v2
+        continue-on-error: true
         if: env.WORKFLOW_CONCLUSION == 'failure'
         with:
           channel: "#miraheze-tech-ops"
